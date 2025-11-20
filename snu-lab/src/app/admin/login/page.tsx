@@ -8,16 +8,33 @@ export default function AdminLoginPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
     if (!password) {
       setError('비밀번호를 입력하세요.');
       return;
     }
-    // 쿠키에 admin_token 저장 (헤더에서 middleware가 확인)
-    document.cookie = `admin_token=${encodeURIComponent(password)}; path=/; max-age=86400`;
-    router.push('/admin/publications');
+
+    try {
+      const res = await fetch('/api/admin/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password })
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error(data.error || '인증에 실패했습니다.');
+      }
+
+      // 인증 성공 시에만 쿠키 저장
+      document.cookie = `admin_token=${encodeURIComponent(password)}; path=/; max-age=86400`;
+      router.push('/admin/publications');
+    } catch (err) {
+      const message = err instanceof Error ? err.message : '인증에 실패했습니다.';
+      setError(message);
+    }
   };
 
   return (
