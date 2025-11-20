@@ -1,0 +1,66 @@
+[
+  {
+    "id": "disorder-random-lasers",
+    "title": "Disorder-Based Random Lasers",
+    "summary": "Engineered disorder in photonic crystals supplies non-periodic optical feedback that supports tunable random lasers with controllable spectra, directionality, and mode competition.",
+    "highlights": [
+      "Disordered photonic crystal backbones form distributed feedback paths",
+      "Control over multimode behavior, emission direction, and spectral shaping",
+      "Active tuning of lasing thresholds and dynamics via structural disorder"
+    ],
+    "tags": [
+      "Random laser",
+      "Disorder",
+      "Nonlinear optics"
+    ],
+    "status": "Prototype devices"
+  },
+  {
+    "id": "topological-nanocavities",
+    "title": "Hierarchical Topological States in 2D Photonic Crystals",
+    "summary": "Topologically engineered photonic crystal lattices support hierarchical eigenstates?including bulk, edge, and corner modes?that exhibit robustness against structural imperfections. By controlling multipole interference and symmetry in InGaAsP photonic-crystal slabs, these multidimensional states can be selectively excited for stable light confinement and lasing.",
+    "highlights": [
+      "2D bulk, 1D edge, and 0D corner eigenstates coexisting in a single photonic crystal platform",
+      "Robust confinement enabled by topologically controlled mode distributions",
+      "Reliable lasing behavior across multiple dimensional eigenstates for integrated nanophotonic devices"
+    ],
+    "tags": [
+      "Topological photonics",
+      "Photonic crystal",
+      "Nanolasers"
+    ],
+    "status": "In-depth study"
+  },
+  {
+    "id": "maskless-nanofabrication",
+    "title": "High-Throughput Maskless Nanofabrication",
+    "summary": "DMD-based digital lithography establishes a rapid, cost-effective path to fabricate submicron photonic structures without masks, dramatically boosting process throughput.",
+    "highlights": [
+      "Maskless patterning with digital micromirror device (DMD) projection",
+      "Submicron resolution delivered at high wafer-level productivity",
+      "Process recipes benchmarked against electron-beam lithography"
+    ],
+    "tags": [
+      "Nanofabrication",
+      "Lithography",
+      "DMD"
+    ],
+    "status": "Process development"
+  },
+  {
+    "id": "resonant-nanophosphors",
+    "title": "Resonant-Cavity-Enhanced Nanophosphors",
+    "summary": "Colloidal quantum dots integrated with resonant photonic structures create high-efficiency color-conversion phosphors for next-generation display and lighting platforms.",
+    "highlights": [
+      "Hybrid platforms combining quantum dots and photonic resonators",
+      "Boosted emission brightness via resonant cavity enhancement",
+      "Color conversion tailored for microdisplay and lighting systems"
+    ],
+    "tags": [
+      "Quantum dot",
+      "Phosphor",
+      "Resonant cavity"
+    ],
+    "status": "Application-driven research"
+  }
+]

@@ -1,0 +1,2110 @@
+[
+  {
+    "id": 114,
+    "title": "A wavelength-scale silk protein color filter array for ultra-high-resolution 80k DPI displays",
+    "authors": [
+      "Tae-Yun Lee",
+      "Jaegang Jo",
+      "Jihyun Lee",
+      "Kwanyhun Nam",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Advanced Optical Materials",
+    "year": 2025,
+    "type": "Journal",
+    "doi": "10.1002/adom.202500983",
+    "link": "https://doi.org/10.1002/adom.202500983",
+    "summary": "Presents a sub-micrometer metal?insulator?metal color filter array made by modulating electron-beam exposure of silk protein to form grayscale resist layers prior to silver deposition. The structure delivers tunable, high-Q colors with pixels down to 300 nm (~80k DPI), reduced color noise, and capability for hidden-information encoding, pointing toward advanced display, biosensing, and optical security applications.",
+    "volume": null,
+    "pages": null
+  },
+  {
+    "id": 113,
+    "title": "Colloidal-quantum-dot nanolaser oscillating at a bound-state-in-the-continuum with planar surface topography for a high Q-factor",
+    "authors": [
+      "Tae-Yun Lee",
+      "Hansol Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanophotonics",
+    "year": 2025,
+    "type": "Journal",
+    "doi": "10.1515/nanoph-2024-0730",
+    "link": "https://doi.org/10.1515/nanoph-2024-0730",
+    "summary": "Demonstrates a colloidal quantum dot nanolaser that maintains the structural symmetry required for high-Q bound-state-in-the-continuum operation by planarizing the CQD film with a compliant squeegee. The resulting Si3N4 photonic-crystal backbone supports BIC lasing with ~10.5 kW/cm^2 threshold, far lower than prior CQD nanolasers, highlighting a scalable path to high-Q solution-processed lasers.",
+    "volume": 14,
+    "pages": "1645-1652"
+  },
+  {
+    "id": 112,
+    "title": "1,550-nm photonic crystal surface-emitting laser diode fabricated by single deep air-hole etch",
+    "authors": [
+      "Myeongeun Kim",
+      "Ye-Seong Song",
+      "Lakjong Jeong",
+      "Tae-Yun Lee",
+      "Hyo Seok Choi",
+      "In Kim",
+      "Myungjae Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanophotonics",
+    "year": 2025,
+    "type": "Journal",
+    "doi": "10.1515/nanoph-2024-0760",
+    "link": "https://doi.org/10.1515/nanoph-2024-0760",
+    "summary": "Introduces a simplified fabrication route for 1,550 nm photonic crystal surface-emitting laser diodes using a single deep air-hole etch that reaches the waveguide layer. Devices lase in a single mode at ~0.8 kA/cm^2 threshold current density, matching or exceeding previous PCSEL performance while dramatically reducing processing complexity and improving yield.",
+    "volume": 14,
+    "pages": "515-522"
+  },
+  {
+    "id": 111,
+    "title": "Recording and revealing 2.5d nanopatterned hidden information on silk protein bioresists",
+    "authors": [
+      "Tae-Yun Lee",
+      "Juwan Choi",
+      "Soohoun Lee",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Small",
+    "year": 2024,
+    "type": "Journal",
+    "doi": "10.1002/smll.202403169",
+    "link": "https://doi.org/10.1002/smll.202403169",
+    "summary": "Demonstrates low-energy electron-beam nanopatterning of silk protein bioresists by inducing controlled molecular degradation and selective cross-linking to record hidden 2.5D patterns. The cross-linked amorphous silk stores secure information and can be combined with fluorescent nanophotonic structures for enhanced visualization, pointing to applications in biomedical and security devices.",
+    "volume": 20,
+    "issue": 44,
+    "pages": "2403169"
+  },
+  {
+    "id": 110,
+    "title": "Highly efficient and reliable organic light-emitting diodes enabled by a multifunctional hazy substrate for extreme environments",
+    "authors": [
+      "Yongmin Jeon",
+      "Tae-Yun Lee",
+      "Minwoo Nam",
+      "Hyeongyun Lee",
+      "Hyeunwoo Kim",
+      "Sun-Woo Lee",
+      "Seung Jin Oh",
+      "Seungyeop Choi",
+      "Jun-Yeong Yang",
+      "Sunghoon Jung",
+      "Seunghun Lee",
+      "Eun-Yeon Byeon",
+      "Taek-Soo Kim",
+      "Heonsu Jeon",
+      "Jeong Hyun Kwon"
+    ],
+    "venue": "Advanced Functional Materials",
+    "year": 2024,
+    "type": "Journal",
+    "doi": "10.1002/adfm.202310268",
+    "link": "https://doi.org/10.1002/adfm.202310268",
+    "summary": "This work presents multifunctional hazy substrates built on ion-beam-treated PET with high optical haze and waterproofing, laminated with distributed Bragg reflector and functional polymer layers to provide gas barriers and UV filtering. Flexible OLEDs using the substrate show 73% higher efficiency, strong environmental stability, low water vapor transmission, and mechanical robustness, enabling reliable operation in extreme conditions.",
+    "volume": 34,
+    "issue": 18,
+    "pages": "2310268"
+  },
+  {
+    "id": 109,
+    "title": "Resonant cavity phosphor",
+    "authors": [
+      "Tae-Yun Lee",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nature Communications",
+    "year": 2023,
+    "type": "Journal",
+    "doi": "https://doi.org/10.1038/s41467-023-42296-1",
+    "link": "https://doi.org/10.1038/s41467-023-42296-1",
+    "summary": "Colloidal quantum dot phosphors embedded in a tailored resonant cavity absorb ~87% of excitation photons and boost fluorescence ~29x across a ~13 nm linewidth, yielding red/green pixels whose gamut exceeds sRGB when paired with a broad blue source. The planar RC design offers a practical structurally engineered phosphor platform for real devices.",
+    "volume": 14,
+    "issue": 1,
+    "pages": "6661"
+  },
+  {
+    "id": 108,
+    "title": "Imaging phonon eigenstates and elucidating the energy storage characteristics of a honeycomb-lattice phononic crystal cavity",
+    "authors": [
+      "P.H. Otsuka",
+      "R. Chinbe",
+      "M. Tomoda",
+      "O. Matsuda",
+      "Y. Tanaka",
+      "D.M. Profunser",
+      "S. Kim",
+      "H. Jeon",
+      "I.A. Veres",
+      "A.A. Maznev",
+      "O.B. Wright"
+    ],
+    "venue": "Photoacoustics",
+    "year": 2023,
+    "type": "Journal",
+    "doi": "https://doi.org/10.1016/j.pacs.2023.100481",
+    "link": "https://doi.org/10.1016/j.pacs.2023.100481",
+    "summary": "Extends gigahertz time-domain imaging to map phonon eigenstates inside and outside a honeycomb-lattice phononic crystal cavity by probing the two-dimensional acoustic field of a silicon slab. The measurements reveal confined hexapole-like modes and quantify spatial acoustic energy storage, while simulations using toneburst excitation show the principal in-gap mode Q factor is limited by ultrasonic attenuation.",
+    "volume": 2023,
+    "issue": null,
+    "pages": "100481"
+  },
+  {
+    "id": 107,
+    "title": "Engineering silk protein to modulate polymorphic transitions for green lithography resists",
+    "authors": [
+      "Soon-Chun Chung",
+      "Joon-Song Park",
+      "Rakesh Kumar Jha",
+      "Jieun Kim",
+      "Jinha Kim",
+      "Muyoung Kim",
+      "Juwan Choi",
+      "Hongdeok Kim",
+      "Da-Hye Park",
+      "Narendar Gogurla",
+      "Tae-Yun Lee",
+      "Heonsu Jeon",
+      "Ji-Yong Park",
+      "Joonmyung Choi",
+      "Ginam Kim",
+      "Sunghwan Kim"
+    ],
+    "venue": "ACS Applied Materials & Interfaces",
+    "year": 2022,
+    "type": "Journal",
+    "doi": "10.1021/acsami.2c17843",
+    "link": "",
+    "summary": "Artificial silk protein chemistry modulates β-sheet↔α-helix transitions to design water-based, green lithography resists; planar color filters with low angle-dependence demonstrate scalable silk resist manufacturing."
+  },
+  {
+    "id": 106,
+    "title": "Structurally engineered colloidal quantum dot phosphor using TiO2 photonic crystal backbone",
+    "authors": [
+      "Hansol Lee",
+      "Tae-Yun Lee",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Young-Geun Rho",
+      "Hyuck Choo",
+      "Heonsu Jeon"
+    ],
+    "venue": "Light: Science & Applications",
+    "year": 2022,
+    "type": "Journal",
+    "doi": "10.1038/s41377-022-01020-2",
+    "link": "https://doi.org/10.1038/s41377-022-01020-2",
+    "summary": "This study enhances two-dimensional square-lattice photonic crystal phosphors by using a high-index TiO2 backbone and removing excess colloidal quantum dots to planarize the surface. The structural engineering delivers simulated absorption enhancement of about 59x and experimental emission improvement of roughly 7x, producing efficient, polarization-immune phosphors.",
+    "volume": 11,
+    "issue": 1,
+    "pages": "318"
+  },
+  {
+    "id": 105,
+    "title": "Photonic crystal L3 cavity laser fabricated using maskless digital photolithography",
+    "authors": [
+      "Minsu Kang",
+      "Heesoo Jin",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanophotonics",
+    "year": 2022,
+    "type": "Journal",
+    "doi": "10.1515/nanoph-2022-0021",
+    "link": "https://doi.org/10.1515/nanoph-2022-0021",
+    "summary": "This paper demonstrates fabrication of photonic crystal L3 cavity lasers using maskless digital photolithography, a cost-effective technique requiring no photomask. The approach enables submicron photonic crystal patterns with controlled air-hole shapes, offering a practical lithographic route for compact, economical photonic devices.",
+    "volume": 11,
+    "issue": 10,
+    "pages": "2283-2291"
+  },
+  {
+    "id": 104,
+    "title": "Submicrometer-scale pattern generation via maskless digital photolithography",
+    "authors": [
+      "Minsu Kang",
+      "Changhyun Han",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optica",
+    "year": 2020,
+    "type": "Journal",
+    "doi": "10.1364/OPTICA.406304",
+    "link": "https://doi.org/10.1364/OPTICA.406304",
+    "summary": "This work demonstrates submicrometer-scale digital photolithography using a DMD system paired with a 200x objective to reach approximately 100 nm features. Techniques such as pattern tilting and grayscale exposure improve fidelity, and photonic crystal band-edge lasers with various lattices serve as test structures to validate the platform.",
+    "volume": 7,
+    "issue": 12,
+    "pages": "1788-1795"
+  },
+  {
+    "id": 103,
+    "title": "Lasing at multidimensional topological states in a two-dimensional photonic crystal structure",
+    "authors": [
+      "Changhyun Han",
+      "Minsu Kang",
+      "Heonsu Jeon"
+    ],
+    "venue": "ACS Photonics",
+    "year": 2020,
+    "type": "Journal",
+    "doi": "10.1021/acsphotonics.0c00357",
+    "link": "https://doi.org/10.1021/acsphotonics.0c00357",
+    "summary": "This work demonstrates lasing at multidimensional topological states?two-dimensional bulk, one-dimensional edge, and zero-dimensional corner modes?in a hierarchical two-dimensional topological photonic crystal composed of tetramer air-hole clusters in an InGaAsP multiple-quantum-well epilayer. Optical pumping excites lasing at all nine hierarchical states, showcasing robust, multifunctional topological modes for integrated nanophotonic devices.",
+    "volume": 7,
+    "issue": 8,
+    "pages": "2027-2036",
+    "citations": 76
+  },
+  {
+    "id": 102,
+    "title": "Enhanced upconversion luminescence by two-dimensional photonic crystal structure",
+    "authors": [
+      "Chenchen Mao",
+      "Kyungtaek Min",
+      "Kyuyoung Bae",
+      "Suehyun Cho",
+      "Tian Xu",
+      "Heonsu Jeon",
+      "Wonjung Park"
+    ],
+    "venue": "ACS Photonics",
+    "volume": 6,
+    "issue": 8,
+    "pages": "1882–1888",
+    "year": 2019,
+    "type": "Journal",
+    "doi": "10.1021/acsphotonics.9b00756",
+    "link": "https://doi.org/10.1021/acsphotonics.9b00756",
+    "citations": 60,
+    "summary": "This work demonstrates strong enhancement of upconversion luminescence by embedding silica-coated upconversion nanoparticles into a two-dimensional Si₃N₄ photonic crystal thin-film structure. The photonic crystal enhances the local electric field near the near-infrared excitation wavelength, amplifying the nonlinear upconversion process. Luminescence increases by roughly 130× in the green channel and 350× in the red channel, offering a low-loss dielectric platform for upconversion applications without plasmonic quenching."
+  },
+  {
+    "id": 101,
+    "title": "2D square lattice photonic crystal phosphor films for efficient and excitation polarization insensitive color conversion",
+    "authors": [
+      "Tae-Yun Lee",
+      "Jongho Lee",
+      "Yeonsang Park",
+      "Kyungtaek Min",
+      "Heonsu Jeon"
+    ],
+    "venue": "Advanced Optical Materials",
+    "volume": 7,
+    "issue": 18,
+    "article_number": "1900209",
+    "year": 2019,
+    "type": "Journal",
+    "doi": "10.1002/adom.201900209",
+    "link": "https://doi.org/10.1002/adom.201900209",
+    "citations": 7,
+    "summary": "This work introduces two-dimensional square-lattice photonic crystal phosphor films that remove the polarization dependence observed in earlier one-dimensional designs. The four-fold rotational symmetry eliminates excitation polarization sensitivity, and increasing the high-index backbone thickness generates dual excitation resonances for TE and TM modes, doubling phosphor efficiency. Using colloidal quantum dots as the phosphor, the device achieves roughly fourfold excitation-insensitive fluorescence enhancement at the dual resonance wavelengths, consistent with simulations."
+  },
+  {
+    "id": 100,
+    "title": "Taming of random lasers",
+    "authors": [
+      "Myungjae Lee",
+      "Segolene Callard",
+      "Christian Seassal",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nature Photonics",
+    "year": 2019,
+    "type": "Journal",
+    "doi": "10.1038/s41566-019-0407-5",
+    "link": "https://doi.org/10.1038/s41566-019-0407-5",
+    "summary": "This study investigates how to control the inherently unpredictable behavior of random lasers in a compositionally disordered photonic crystal platform. Photonic band-tail states, interpreted as photonic Anderson localizations, govern the lasing behavior, and regulating their statistical formation provides a pathway to stabilize random lasers.",
+    "volume": 13,
+    "issue": 7,
+    "pages": "445-448",
+    "highlight": "Selected for the cover image of the July 2019 issue"
+  },
+  {
+    "id": 99,
+    "title": "Lasing at topological edge states in a photonic crystal L3 nanocavity dimer array",
+    "authors": [
+      "Changhyun Han",
+      "Myungjae Lee",
+      "Segolene Callard",
+      "Christian Seassal",
+      "Heonsu Jeon"
+    ],
+    "venue": "Light: Science & Applications",
+    "year": 2019,
+    "type": "Journal",
+    "doi": "10.1038/s41377-019-0149-7",
+    "link": "https://doi.org/10.1038/s41377-019-0149-7",
+    "summary": "This work demonstrates lasing at topological edge states in a photonic crystal L3 nanocavity dimer array designed via the Su?Schrieffer?Heeger model. InP-based multi-quantum-well cavity arrays exhibit edge-localized lasing that remains robust against fabrication disorder, confirmed through emission spectra, near-field imaging, and simulations, marking a key step toward topologically protected photonic crystal lasers.",
+    "volume": 8,
+    "article_number": 40
+  },
+  {
+    "id": 98,
+    "title": "Tunable colloidal quantum dot distributed feedback lasers integrated on a continuously chirped surface grating",
+    "authors": [
+      "Hyunho Jung",
+      "Changhyun Han",
+      "Hanbit Kim",
+      "Kyung-Sang Cho",
+      "Young-Geun Roh",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanoscale",
+    "year": 2018,
+    "type": "Journal",
+    "doi": "10.1039/C8NR07854H",
+    "link": "https://doi.org/10.1039/C8NR07854H",
+    "summary": "This study demonstrates a tunable colloidal quantum dot distributed feedback laser integrated with a continuously chirped surface grating fabricated via a modified Lloyd-type interferometric lithography setup using a concave mirror. A dense red-emitting CdSe/CdS/ZnS quantum dot film is wet-transferred onto the chirped grating, yielding single-mode lasing tunable from 613.4 to 623.2 nm across a 5.6 mm chirped region with ~400 uJ/cm^2 threshold, providing a compact wavelength-tunable CQD laser platform.",
+    "volume": 10,
+    "pages": "22745-22749"
+  },
+  {
+    "id": 97,
+    "title": "Electrical modulation of a photonic crystal band-edge laser with a graphene monolayer",
+    "authors": [
+      "Hanbit Kim",
+      "Myungjae Lee",
+      "Hyunhak Jeong",
+      "Min-Soo Hwang",
+      "Ha-Reem Kim",
+      "Seondo Park",
+      "Yun Daniel Park",
+      "Takhee Lee",
+      "Hong-Gyu Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanoscale",
+    "year": 2018,
+    "type": "Journal",
+    "doi": "10.1039/C8NR01614C",
+    "link": "https://doi.org/10.1039/C8NR01614C",
+    "summary": "This study demonstrates electrical modulation of a photonic crystal band-edge laser by integrating a monolayer graphene sheet atop an InGaAsP multiple-quantum-well photonic crystal. Gate tuning of the graphene Fermi level adjusts its optical absorption, enabling low-voltage (|Vg| <= 1 V) modulation of microwatt-scale laser output. A dielectric spacer balances gain and absorption, and ion-gel encapsulation provides efficient gating, highlighting the feasibility of electrically tuned photonic crystal lasers.",
+    "volume": 10,
+    "pages": "8496?8502"
+  },
+  {
+    "id": 96,
+    "title": "High-contrast infrared absorption spectroscopy via mass-produced coaxial zero-mode resonators with sub-10 nm gaps",
+    "authors": [
+      "Daehan Yoo",
+      "Daniel A. Mohr",
+      "Ferran Vidal-Codina",
+      "Aurelian John-Herpin",
+      "Min Sik Jo",
+      "Sunghwan Kim",
+      "Joseph Matson",
+      "Joshua D. Caldwell",
+      "Heonsu Jeon",
+      "Ngoc-Cuong Nguyen",
+      "Luis Martin-Moreno",
+      "Jaime Peraire",
+      "Hatice Altug",
+      "Sang-Hyun Oh"
+    ],
+    "venue": "Nano Letters",
+    "year": 2018,
+    "type": "Journal",
+    "doi": "10.1021/acs.nanolett.7b05295",
+    "link": "https://doi.org/10.1021/acs.nanolett.7b05295",
+    "summary": "This paper demonstrates wafer-scale fabrication of resonant coaxial nanoapertures with sub-10 nm gaps for surface-enhanced infrared absorption spectroscopy. The coaxial zero-mode resonators are produced via photolithography, atomic layer deposition, and glancing-angle ion milling, enabling up to 34% of incident IR light to funnel into nanogaps at their Fabry?Perot resonance. Incorporating silk protein into the gaps yields strong SEIRA signals with enhancement factors of 10^4?10^5, offering a mass-producible platform for ultrasensitive vibrational spectroscopy.",
+    "volume": 18,
+    "issue": 3
+  },
+  {
+    "id": 95,
+    "title": "Wet-transfer of freestanding dense colloidal quantum dot films and their photonic device application",
+    "authors": [
+      "Changhyun Han",
+      "Hyunho Jung",
+      "Jongho Lee",
+      "Myungjae Lee",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Heonsu Jeon"
+    ],
+    "venue": "Advanced Materials Technologies",
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1002/admt.201700291",
+    "link": "https://doi.org/10.1002/admt.201700291",
+    "summary": "This paper reports a wet-transfer method for producing freestanding, densely packed colloidal quantum dot films by using poly(vinyl alcohol) as a sacrificial layer and poly(methyl methacrylate) as a temporary support. Large-area films about 1 cm x 1 cm can be transferred onto varied substrates with minimal mechanical or optical damage, and stacked to form CQD heterostructures. A CdSe-based CQD distributed feedback laser is demonstrated by placing a thick CQD film onto a grating substrate, achieving single-mode lasing with a high spontaneous emission factor.",
+    "volume": 3,
+    "issue": 3
+  },
+  {
+    "id": 94,
+    "title": "Anderson localizations and photonic band-tail states observed in compositionally disordered platform",
+    "authors": [
+      "Myungjae Lee",
+      "Jeongkug Lee",
+      "Sunghwan Kim",
+      "Segolene Callard",
+      "Heonsu Jeon"
+    ],
+    "venue": "Science Advances",
+    "year": 2018,
+    "type": "Journal",
+    "doi": "10.1126/sciadv.1602796",
+    "link": "https://doi.org/10.1126/sciadv.1602796",
+    "summary": "This study provides the first experimental confirmation of photonic band-tail states and the complete Anderson localization transition in a compositionally disordered photonic crystal alloy platform. Eigenstate-resolved measurements reveal clear band-tail states and localization behavior, validating long-standing theoretical predictions and enabling future efforts to harness disorder-induced photon confinement.",
+    "volume": 4,
+    "issue": 1
+  },
+  {
+    "id": 93,
+    "title": "Photonic crystal phosphors integrated on a blue LED chip for efficient white light generation",
+    "authors": [
+      "Jongho Lee",
+      "Kyungtaek Min",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Heonsu Jeon"
+    ],
+    "venue": "Advanced Materials",
+    "volume": 30,
+    "issue": 3,
+    "year": 2017,
+    "type": "Communication",
+    "doi": "10.1002/adma.201703506",
+    "link": "https://doi.org/10.1002/adma.201703506",
+    "citations": 57,
+    "summary": "This work integrates photonic crystal phosphors onto a blue LED chip to realize a compact, efficient white-light source. Red- or green-emitting colloidal quantum dots are coated on Si₃N₄ thin-film photonic crystal gratings to form engineered phosphor plates whose band-edge modes match the blue LED excitation. Stacked photonic crystal phosphors produce 8% higher total emission intensity while requiring 33% less CQD material than reference phosphors, demonstrating enhanced color conversion."
+  },
+  {
+    "id": 92,
+    "title": "Efficient on-chip integration of a colloidal quantum dot photonic crystal band-edge laser with a coplanar waveguide",
+    "authors": [
+      "Hyunho Jung",
+      "Myungjae Lee",
+      "Changhyun Han",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "volume": 25,
+    "issue": 26,
+    "pages": "32919–32930",
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1364/OE.25.032919",
+    "link": "https://doi.org/10.1364/OE.25.032919",
+    "summary": "This study demonstrates an on-chip integration technique for photonic integrated circuits in which a high-index coplanar waveguide layer doubles as the structural backbone. A two-dimensional photonic crystal band-edge laser is patterned into the backbone, colloidal quantum dots act as the gain medium, and optical pumping yields coherent single-mode lasing that couples efficiently into adjacent waveguides, enabling low-loss coupling between active and passive photonic components."
+  },
+  {
+    "id": 91,
+    "title": "Single-mode distributed feedback laser operation in solution-processed halide perovskite alloy system",
+    "authors": [
+      "Hyungrae Cha",
+      "Seunghwan Bae",
+      "Hyunho Jung",
+      "Min Jae Ko",
+      "Heonsu Jeon"
+    ],
+    "venue": "Advanced Optical Materials",
+    "volume": 5,
+    "issue": 22,
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1002/adom.201700545",
+    "link": "https://doi.org/10.1002/adom.201700545",
+    "summary": "This work reports single-mode distributed feedback lasing from solution-processed halide perovskite alloy films CH(NH2)2Pb(I1−xBrx)3 with smooth morphology and tunable photonic bandgaps. By varying the halide composition, emission wavelengths shift from near-infrared to green, and quartz surface gratings enable stable single-mode lasing over a wide temperature range. Grating-period control dictates polarization, highlighting the potential of perovskite alloys for tunable optoelectronic laser devices."
+  },
+  {
+    "id": 90,
+    "title": "A colloidal quantum dot photonic crystal phosphor: nanostructural engineering of the phosphor for enhanced color conversion",
+    "authors": [
+      "Kyungtaek Min",
+      "Hyunho Jung",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Young-Geun Roh",
+      "Sung Woo Hwang",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanoscale",
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1039/C7NR01055A",
+    "link": "https://doi.org/10.1039/C7NR01055A",
+    "summary": "This study introduces a nanostructurally engineered photonic crystal phosphor using colloidal quantum dots embedded in a one-dimensional photonic crystal thin-film structure. By matching the photonic band-edge mode with the excitation photon energy, absorption is significantly enhanced, yielding roughly four times higher fluorescence intensity than a bulk phosphor and demonstrating improved color conversion performance.",
+    "issue": 25
+  },
+  {
+    "id": 89,
+    "title": "Single-mode distributed feedback laser operation with no dependence on the morphology of the gain medium",
+    "authors": [
+      "Muhammad Umar",
+      "Kyungtaek Min",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Annalen der Physik",
+    "volume": 529,
+    "issue": 6,
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1002/andp.201700034",
+    "link": "https://doi.org/10.1002/andp.201700034",
+    "summary": "This work presents a reusable photonic template enabling single-mode distributed feedback lasing independent of the gain-medium morphology. A one-dimensional quartz grating with 25 nm TiO2 disconnected-line structures spatially confines DFB modes regardless of optical thickness or liquid/film state of the gain medium. Experiments and simulations confirm stable single-mode lasing even with irregular biological gain materials."
+  },
+  {
+    "id": 88,
+    "title": "Origin and biomimicry of weak iridescence in black-billed magpie feathers",
+    "authors": [
+      "Changhyun Han",
+      "Hanbit Kim",
+      "Hyunho Jung",
+      "Sang-Im Lee",
+      "Piotr G. Jablonski",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optica",
+    "volume": 4,
+    "issue": 4,
+    "pages": "464–467",
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1364/OPTICA.4.000464",
+    "link": "https://doi.org/10.1364/OPTICA.4.000464",
+    "summary": "This study investigates the microstructural origin of the weak iridescence observed in black-billed magpie feathers. Cross-sectional analysis revealed vertically layered melanin-tube structures along the barbule cortex that generate the weak structural coloration, while lateral arrangement contributes little. Artificial polymer gratings patterned to mimic the barbules reproduced the iridescent behavior, confirming that cortex thickness predominates in determining coloration."
+  },
+  {
+    "id": 87,
+    "title": "Biocompatible, optically transparent, patterned, and flexible electrodes and radio-frequency antennas prepared from silk protein and silver nanowire networks",
+    "authors": [
+      "Kyungtaek Min",
+      "Muhammad Umar",
+      "Haekyo Seo",
+      "Jong Hyuk Yim",
+      "Dong Gun Kam",
+      "Heonsu Jeon",
+      "Soonil Lee",
+      "Sunghwan Kim"
+    ],
+    "venue": "RSC Advances",
+    "year": 2017,
+    "type": "Journal",
+    "doi": "10.1039/C6RA25580A",
+    "link": "https://doi.org/10.1039/C6RA25580A",
+    "summary": "This work demonstrates patterned silver nanowire networks embedded in silk fibroin films to build flexible, biocompatible, and optically transparent electrodes suitable for radio-frequency antennas. The AgNW-silk composite offers low sheet resistance (~15 Ω/sq), high transparency, and mechanical robustness, enabling its use in bioelectronic and soft-electronic applications."
+  },
+  {
+    "id": 86,
+    "title": "Enhanced light outcoupling of polymer light-emitting diodes with a solution-processed, -flattening photonic-crystal underlayer",
+    "authors": [
+      "Donghyun Kim",
+      "Jaeheung Ha",
+      "Jongjang Park",
+      "Jun Hwang",
+      "Heonsu Jeon",
+      "Changhee Lee"
+    ],
+    "venue": "Journal of Information Display",
+    "year": 2016,
+    "type": "Journal",
+    "doi": "10.1080/15980316.2016.1219404",
+    "link": "https://doi.org/10.1080/15980316.2016.1219404",
+    "summary": "This study demonstrates enhanced light outcoupling in polymer light-emitting diodes by applying a solution-processed gallium-doped zinc oxide layer as both a planarizing electrode and a photonic-crystal underlayer. The corrugated PC surface is coated with GZO, which flattens the anode while preserving photonic-crystal effects. PLEDs using the PC-embedded GZO anode show higher efficiency and stronger areal emission, especially in device arrays."
+  },
+  {
+    "id": 85,
+    "title": "Effective mobility enhancement of amorphous in-ga-zn-o thin-film transistors by holographically generated periodic conductor",
+    "authors": [
+      "Jaewook Jeong",
+      "Joonwoo Kim",
+      "Donghyun Kim",
+      "Heonsu Jeon",
+      "Soon Moon Jeong",
+      "Yongtaek Hong"
+    ],
+    "venue": "AIP Advances",
+    "year": 2016,
+    "type": "Research Article",
+    "doi": "10.1063/1.4961379",
+    "link": "https://doi.org/10.1063/1.4961379",
+    "summary": "The study demonstrates a mobility enhancement method for fully transparent amorphous In-Ga-Zn-O thin-film transistors by embedding a holographically generated periodic nano-conductor in the back-channel region. The intrinsic field-effect mobility doubles compared to reference devices because the conductive nano-conductor pathway effectively shortens the channel length. The scalable approach combines holographic and conventional lithography without altering the IGZO channel composition."
+  },
+  {
+    "id": 84,
+    "title": "Physically transient distributed feedback laser using optically activated silk bio-ink",
+    "authors": [
+      "Hyunho Jung",
+      "Kyungtaek Min",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Advanced Optical Materials",
+    "year": 2016,
+    "type": "Communication",
+    "doi": "10.1002/adom.201600369",
+    "link": "https://doi.org/10.1002/adom.201600369",
+    "summary": "This study demonstrates a physically transient distributed feedback laser using optically activated silk bio-ink patterned on a one-dimensional surface grating. The silk layer can be removed with water and recoated to create fresh single-use lasers, enabling biodegradable, disposable photonic components. The device shows reliable lasing behavior and can detect toxic acid vapor, highlighting potential for eco-friendly chemosensing applications."
+  },
+  {
+    "id": 83,
+    "title": "Eco-friendly photolithography using water-developable pure silk fibroin",
+    "authors": [
+      "Joonhan Park",
+      "Sung-Gyu Lee",
+      "Benedetto Marelli",
+      "Myungjae Lee",
+      "Taehyung Kim",
+      "Hye-Keun Oh",
+      "Heonsu Jeon",
+      "Fiorenzo G. Omenetto",
+      "Sunghwan Kim"
+    ],
+    "venue": "RSC Advances",
+    "year": 2016,
+    "type": "Communication",
+    "doi": "10.1039/C6RA04516B",
+    "link": "https://doi.org/10.1039/C6RA04516B",
+    "summary": "This study demonstrates a fully eco-friendly photolithography technique using pure silk fibroin as a green, water-developable photoresist suitable for deep ultraviolet lithography. All steps—from resist coating to development—are entirely water-based without organic solvents. DUV exposure photo-denatures silk fibroin, reducing crystallinity and enabling pattern formation, providing a sustainable alternative to conventional photolithography materials."
+  },
+  {
+    "id": 82,
+    "title": "Two-dimensional photonic crystal bandedge laser with hybrid perovskite thin film for optical gain",
+    "authors": [
+      "Hyungrae Cha",
+      "Seunghwan Bae",
+      "Myungjae Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2016,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "The study demonstrates a room-temperature, optically pumped single-mode laser incorporating a thin hybrid perovskite film as the gain medium. A 2D square-lattice photonic crystal backbone enables single-mode laser operation through photonic bandedge modes, while CH3NH3PbI3 perovskite provides the optical gain. Lasing from both Γ-point and M-point bandedge modes is observed, with similar thresholds around ~200 μJ/cm². Polarization-dependent measurements distinguish the isotropic Γ-point mode from the highly anisotropic M-point mode, confirming that lasing originates from the corresponding photonic crystal bandedge modes."
+  },
+  {
+    "id": 81,
+    "title": "Colloidal quantum dot lasers built on a passive two-dimensional photonic crystal backbone",
+    "authors": [
+      "Hojun Chang",
+      "Kyungtaek Min",
+      "Myungjae Lee",
+      "Minsu Kang",
+      "Yeonsang Park",
+      "Kyung-Sang Cho",
+      "Young-Geun Roh",
+      "Sung Woo Hwang",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanoscale",
+    "year": 2016,
+    "type": "Paper",
+    "doi": "10.1039/C5NR08544F",
+    "link": "",
+    "summary": "This work demonstrates room-temperature lasing in two-dimensional photonic crystal structures consisting of a passive Si3N4 backbone over-coated with CdSe/CdS/ZnS core-shell colloidal quantum dots (CQDs). Under optical pumping, devices lase in dual PC band-edge modes, with mode switching determined by the CQD overlayer thickness. The PC-CQD hybrid platform enables efficient coupling between active CQD gain media and passive photonic crystal components, suggesting potential for integrated on-chip photonic circuits."
+  },
+  {
+    "id": 80,
+    "title": "Period-chirped gratings fabricated by laser interference lithography with a concave lloyd’s mirror",
+    "authors": [
+      "Hanbit Kim",
+      "Hyunho Jung",
+      "Dong-Hyun Lee",
+      "Kyu Back Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Applied Optics",
+    "year": 2016,
+    "type": "Journal",
+    "doi": "10.1364/AO.55.000354",
+    "link": "",
+    "summary": "Describes concave Lloyd’s mirror laser interference lithography system that produces period-chirped gratings over wide areas with ΔΛ=92 nm across 17 mm."
+  },
+  {
+    "id": 79,
+    "title": "A highly tunable and fully biocompatible silk nanoplasmonic optical sensor",
+    "authors": [
+      "Myungjae Lee",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Nano Letters",
+    "year": 2015,
+    "type": "Journal",
+    "doi": "10.1021/acs.nanolett.5b00680",
+    "link": "",
+    "summary": "Silk plasmonic absorber sensors using silk protein spacers and gold nanostructures achieve ~1200 nm/RIU sensitivity and strong spectral shifts via controllable swelling, enabling biocompatible real-time sensing."
+  },
+  {
+    "id": 78,
+    "title": "Surface passivation of photonic crystal band-edge laser by atomic layer deposition of sio?",
+    "authors": [
+      "Kyungtaek Min",
+      "Suehyun Cho",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanotechnology",
+    "year": 2015,
+    "type": "Journal",
+    "doi": "10.1088/0957-4484/26/5/055202",
+    "link": "",
+    "summary": "Atomic-layer-deposited SiO2 passivates photonic-crystal band-edge lasers, reducing nonradiative recombination and stabilizing lasing characteristics."
+  },
+  {
+    "id": 77,
+    "title": "A fully biocompatible single-mode distributed feedback laser",
+    "authors": [
+      "Yunkyung Choi",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Lab on a Chip",
+    "year": 2015,
+    "type": "Journal",
+    "doi": "10.1039/C4LC01171F",
+    "link": "",
+    "summary": "Reports a freestanding silk–riboflavin–silver DFB laser operating in a single mode at 495 nm, highlighting its potential for biomedical photonics."
+  },
+  {
+    "id": 76,
+    "title": "Novel and simple route to fabricate fully biocompatible plasmonic mushroom arrays adhered on silk biopolymer",
+    "authors": [
+      "Joonhan Park",
+      "Yunkyung Choi",
+      "Myungjae Lee",
+      "Heonsu Jeon",
+      "Sunghwan Kim"
+    ],
+    "venue": "Nanoscale",
+    "year": 2014,
+    "type": "Journal",
+    "doi": "10.1039/C4NR05172F",
+    "link": "",
+    "summary": "Demonstrates biocompatible plasmonic mushroom arrays on silk fibroin via laser interference lithography, leveraging strong Au–silk adhesion for scalable biosensing substrates."
+  },
+  {
+    "id": 75,
+    "title": "Enhanced fluorescence from cdse/zns quantum dot nanophosphors embedded in a one-dimensional photonic crystal backbone structure",
+    "authors": [
+      "Kyungtaek Min",
+      "Serok Choi",
+      "Yunkyung Choi",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanoscale",
+    "year": 2014,
+    "type": "Journal",
+    "doi": "10.1039/C4NR03907F",
+    "link": "",
+    "summary": "CdSe/ZnS quantum dots embedded in a 1D photonic crystal polymer backbone show 1.36× fluorescence enhancement when the pump energy matches the photonic band edge."
+  },
+  {
+    "id": 74,
+    "title": "Highly efficient, spatially coherent distributed feedback lasers from dense colloidal quantum dot films",
+    "authors": [
+      "C. Dang",
+      "J. Lee",
+      "K. Roh",
+      "H. Kim",
+      "S. Ahn",
+      "H. Jeon",
+      "C. Breen",
+      "J. S. Steckel",
+      "S. Coe-Sullivan",
+      "A. Nurmikko"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2013,
+    "type": "Journal",
+    "doi": "10.1063/1.4826147",
+    "link": "",
+    "summary": "Demonstrates dense colloidal quantum-dot DFB lasers with low thresholds under quasi-CW pumping, delivering >400 μW coherent output and 32% external quantum efficiency."
+  },
+  {
+    "id": 73,
+    "title": "Simultaneous observation of extended and localized modes in compositional disordered photonic crystals",
+    "authors": [
+      "Sunghwan Kim",
+      "Jeongkug Lee",
+      "Heonsu Jeon",
+      "Ségoléne Callard",
+      "Christian Seassal",
+      "Kyung-Deok Song",
+      "Hong-Gyu Park"
+    ],
+    "venue": "Physical Review A",
+    "year": 2013,
+    "type": "Journal",
+    "doi": "10.1103/PhysRevA.88.023804",
+    "link": "",
+    "summary": "Mixed photonic crystals fabricated from wafer-bonded InAsP/InP slabs show disorder-induced localized photon modes alongside extended band-edge modes, as verified by emission spectroscopy and simulations."
+  },
+  {
+    "id": 72,
+    "title": "Selective lateral electrochemical etching of a gan-based superlattice layer for thin film device application",
+    "authors": [
+      "Dong-Uk Kim",
+      "Hojun Chang",
+      "Hyungrae Cha",
+      "Heonsu Jeon",
+      "Seong-Ran Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2013,
+    "type": "Journal",
+    "doi": "10.1063/1.4802274",
+    "link": "",
+    "summary": "Demonstrates lateral electrochemical etching of a 50-nm InGaN/AlGaN superlattice at ~0.8 μm/min using 0.3 M oxalic acid, enabling efficient epitaxial lift-off of 80 μm × 80 μm GaN platelets without degrading quantum-well emission."
+  },
+  {
+    "id": 71,
+    "title": "Nano stepping-stone laser",
+    "authors": [
+      "Sihan Kim",
+      "Sungmo Ahn",
+      "Kyungtaek Min",
+      "Sunghwan Kim",
+      "Heonsu Jeon",
+      "Philippe Regreny",
+      "Christian Seassal"
+    ],
+    "venue": "Applied Physics Express",
+    "year": 2013,
+    "type": "Journal",
+    "doi": "10.7567/APEX.6.042703",
+    "link": "",
+    "summary": "Introduces nano stepping-stone photonic crystal lasers comprising chains of discrete MQW nanorods bonded to fused silica, exhibiting single band-edge lasing with ~285 W/cm² thresholds and Q>10⁴."
+  },
+  {
+    "id": 70,
+    "title": "Improved emission efficiency of a-plane gan light emitting diodes with silica nano-spheres integrated",
+    "authors": [
+      "Y. G. Roh",
+      "K. S. Cho",
+      "Y. S. Park",
+      "H. Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2013,
+    "type": "Journal",
+    "doi": "10.1063/1.4801659",
+    "link": "",
+    "summary": "Integrating silica nanospheres on a-plane GaN LEDs boosts emission via scattering-assisted extraction without altering epitaxial structures."
+  },
+  {
+    "id": 69,
+    "title": "Two-dimensional hexagonal lattice photonic crystal band-edge laser patterned by nanosphere lithography",
+    "authors": [
+      "Sungmo Ahn",
+      "Hanbit Kim",
+      "Heonsu Jeon",
+      "Jeong Rok Oh",
+      "Young Rag Do",
+      "Hyo Jin Kim"
+    ],
+    "venue": "Applied Physics Express",
+    "year": 2012,
+    "type": "Journal",
+    "doi": "10.1143/APEX.5.042102",
+    "link": "",
+    "summary": "Demonstrates 2D photonic crystal band-edge lasers using nanosphere lithography masks, producing circular air-hole arrays and lasing at the M1 band-edge near 1550 nm."
+  },
+  {
+    "id": 68,
+    "title": "Model calculations for enhanced fluorescence in photonic crystal phosphor",
+    "authors": [
+      "Kyungtaek Min",
+      "Yun-Kyoung Choi",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "year": 2012,
+    "type": "Journal",
+    "doi": "10.1364/OE.20.002452",
+    "link": "",
+    "summary": "Proposes 1D photonic crystal phosphor structures tuned to photonic band edges, showing calculated fluorescence enhancements of ~6.9 (monochromatic) and ~2.2 (broadband) excitation."
+  },
+  {
+    "id": 67,
+    "title": "Effects of surface nano-topography on human osteoblast filopodia",
+    "authors": [
+      "Jin-Woo Lee",
+      "Kyu-Back Lee",
+      "Heon-Su Jeon",
+      "Hun-Kuk Park"
+    ],
+    "venue": "Analytical Sciences",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.2116/analsci.27.369",
+    "link": "",
+    "summary": "Human osteoblasts cultured on laser-interference nanopatterned surfaces reveal that low-density patterns guide filopodia extension while dense patterns hinder stable migration, producing shovel-like tips."
+  },
+  {
+    "id": 66,
+    "title": "Operation of photonic crystal laser in continuous-wave mode for 18 hours",
+    "authors": [
+      "Sihan Kim",
+      "Sunghwan Kim",
+      "Kyungwook Hwang",
+      "Heonsu Jeon",
+      "Hyo Jin Kim"
+    ],
+    "venue": "Applied Physics Express",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1143/APEX.4.122101",
+    "link": "",
+    "summary": "Demonstrates 18-hour continuous-wave operation of photonic crystal lasers using silicon/diamond/MgF₂ submounts and an MgF₂ top confinement layer, suggesting further improvements via better bonding."
+  },
+  {
+    "id": 65,
+    "title": "Electroluminescence from n–n isotype heterostructures of graded-band-gap znmgo:al and zno films on platinized si",
+    "authors": [
+      "Jong-Gul Yoon",
+      "Sung Woo Cho",
+      "W S Choi",
+      "Dae Yeol Kim",
+      "H Chang",
+      "C O Kim",
+      "J Lee",
+      "Heonsu Jeon",
+      "S-H Choi",
+      "T W Noh"
+    ],
+    "venue": "Journal of Physics D: Applied Physics",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1088/0022-3727/44/41/415402",
+    "link": "",
+    "summary": "Graded-band-gap ZnMgO:Al/ZnO n–n heterostructures on Pt/Ti/SiO₂/Si emit across visible–NIR ranges under 3–5 V, with nonlinear intensity and short-wavelength enhancement due to hot-electron-induced impact ionization."
+  },
+  {
+    "id": 64,
+    "title": "Free-standing gan-based photonic crystal band-edge laser",
+    "authors": [
+      "Dong-Uk Kim",
+      "Sunghwan Kim",
+      "Jeongkug Lee",
+      "Seong-Ran Jeon",
+      "Heonsu Jeon"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1109/LPT.2011.2162944",
+    "link": "",
+    "summary": "Honeycomb-lattice GaN photonic crystal band-edge lasers fabricated as free-standing membranes exhibit Γ₁ monopole-mode lasing at room temperature with ~15.5 mJ/cm² thresholds."
+  },
+  {
+    "id": 63,
+    "title": "Photonic crystal digital alloys and their band structure properties",
+    "authors": [
+      "Jeongkug Lee",
+      "Dong-Uk Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1364/OE.19.019255",
+    "link": "",
+    "summary": "Microwave diamond-lattice photonic crystal digital alloys formed by alternating alumina and silica spheres emulate random alloy band gaps when the digital period is short, as shown by transmission measurements and band-structure calculations."
+  },
+  {
+    "id": 62,
+    "title": "Holography and plasma oxidation for uniform nanoscale two dimensional channel formation of vertical organic field-effect transistors with suppressed gate leakage current",
+    "authors": [
+      "Donghyun Kim",
+      "Jaewook Jeong",
+      "Hwairm Im",
+      "Sungmo Ahn",
+      "Heonsu Jeon",
+      "Changhee Lee",
+      "Yongtaek Hong"
+    ],
+    "venue": "Organic Electronics",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1016/j.orgel.2011.07.019",
+    "link": "",
+    "summary": "Demonstrates holographically patterned ~250 nm channels for vertical organic FETs, achieving on/off ratios ~10³ and further gate leakage suppression via plasma oxidation."
+  },
+  {
+    "id": 61,
+    "title": "Combined laser interference and photolithography patterning of a hybrid mask mold for nanoimprint lithography",
+    "authors": [
+      "Sungmo Ahn",
+      "Jinnil Choi",
+      "Eunhye Kim",
+      "Ki-Young Dong",
+      "Heonsu Jeon",
+      "Byeong-Kwon Ju",
+      "Kyu Back Lee"
+    ],
+    "venue": "Journal of Nanoscience and Nanotechnology",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1166/jnn.2011.4363",
+    "link": "",
+    "summary": "Combines laser interference lithography with photolithography to fabricate hybrid mask molds for nanoimprint lithography, producing uniform 2D nanoscale patterns (~180 nm) transferable via PDMS molds."
+  },
+  {
+    "id": 60,
+    "title": "Milliwatt-level fiber-coupled laser power from photonic crystal band-edge laser",
+    "authors": [
+      "Sunghwan Kim",
+      "Sungmo Ahn",
+      "Jeongkuk Lee",
+      "Heonsu Jeon",
+      "Philippe Regreny",
+      "Christian Seassal",
+      "Emmanuel Augendre",
+      "Lea Di Cioccio"
+    ],
+    "venue": "Optics Express",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Large-area 2D photonic crystal band-edge lasers patterned via holography and bonded to fused silica achieve up to 2.6 mW fiber-coupled output with ~4% differential quantum efficiency."
+  },
+  {
+    "id": 59,
+    "title": "Over 1 hour continuous-wave operation of photonic crystal lasers",
+    "authors": [
+      "Sunghwan Kim",
+      "Jeongkuk Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "year": 2011,
+    "type": "Journal",
+    "doi": "10.1364/OE.19.000001",
+    "link": "https://doi.org/10.1364/OE.19.000001",
+    "summary": "Demonstrates Γ-point photonic crystal lasers bonded to MgF₂–diamond submounts operating continuously for over one hour with fiber-coupled output ~200 μW, highlighting practical CW performance."
+  },
+  {
+    "id": 58,
+    "title": "Absorbing one-dimensional planar photonic crystal for amorphous silicon solar cell",
+    "authors": [
+      "Ounsi El Daif",
+      "Emmanuel Drouard",
+      "Guillaume Gomard",
+      "Anne Kaminski",
+      "Alain Fave",
+      "Mustapha Lemiti",
+      "Sungmo Ahn",
+      "Sihan Kim",
+      "Pere Roca I Cabarrocas",
+      "Heonsu Jeon",
+      "Christian Seassal"
+    ],
+    "venue": "Optics Express",
+    "year": 2010,
+    "type": "Journal",
+    "doi": "10.1364/OE.18.00A293",
+    "link": "https://doi.org/10.1364/OE.18.00A293",
+    "summary": "Patterned 1D planar photonic crystals in amorphous silicon via laser holography plus RIE yield ~50% absorption enhancement between 0.38 and 0.75 μm, highlighting their suitability for photovoltaic structures."
+  },
+  {
+    "id": 57,
+    "title": "Fabrication of periodically polarity-inverted zno structures on (0001) al2o3",
+    "authors": [
+      "J.S. Park",
+      "T. Minegishi",
+      "S. Ahn",
+      "S.H. Park",
+      "S.K. Hong",
+      "H. Jeon",
+      "I.H. Im",
+      "J.H. Chang",
+      "T. Yao"
+    ],
+    "venue": "Thin Solid Films",
+    "year": 2010,
+    "type": "Journal",
+    "doi": "10.1016/j.tsf.2009.11.011",
+    "link": "https://doi.org/10.1016/j.tsf.2009.11.011",
+    "summary": "Plasma-assisted MBE with CrN template patterns yields 2D periodically polarity-inverted ZnO on (0001) Al2O3, confirmed by piezoresponse microscopy and He–Ne diffraction."
+  },
+  {
+    "id": 56,
+    "title": "Second harmonic generation in periodically polarity-inverted zinc oxide",
+    "authors": [
+      "Jinsub Park",
+      "Yoshiki Yamazaki",
+      "Masanobu Iwanaga",
+      "Sungmo Ahn",
+      "Heonsu Jeon",
+      "Takumi Fujiwara",
+      "Takafumi Yao"
+    ],
+    "venue": "Optics Express",
+    "year": 2010,
+    "type": "Journal",
+    "doi": "10.1364/OE.18.007851",
+    "link": "https://doi.org/10.1364/OE.18.007851",
+    "summary": "Reports SHG in periodically polarity-inverted ZnO heterostructures, demonstrating quasi-phase-matched conversion in nanometer-scale gratings formed on mixed-polarity surfaces."
+  },
+  {
+    "id": 55,
+    "title": "Band-edge lasers based on randomly mixed photonic crystals",
+    "authors": [
+      "Sunghwan Kim",
+      "Sungjoon Yoon",
+      "Hyojun Seok",
+      "Jeongkuk Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "year": 2010,
+    "type": "Journal",
+    "doi": "10.1364/OE.18.007685",
+    "link": "https://doi.org/10.1364/OE.18.007685",
+    "summary": "Random mixtures of two distinct InGaAsP photonic crystals yield new band structures with monotonic, strongly bowed band-edge shifts versus composition, matching FDTD simulations and virtual crystal approximation predictions."
+  },
+  {
+    "id": 54,
+    "title": "Single-defect photonic crystal cavity laser fabricated by a combination of laser holography and focused ion beam lithography",
+    "authors": [
+      "Sungmo Ahn",
+      "Sihan Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2010,
+    "type": "Journal",
+    "doi": "10.1063/1.3373527",
+    "link": "https://doi.org/10.1063/1.3373527",
+    "summary": "Hybrid laser holography and FIB lithography enable square-lattice InP photonic crystal cavity lasers with single air-hole defects, achieving Q≈2200 and ~0.25 mW thresholds comparable to e-beam fabricated devices."
+  },
+  {
+    "id": 53,
+    "title": "Polarization-dependent gan surface grating reflector for short wavelength applications",
+    "authors": [
+      "Joonhee Lee",
+      "Sungmo Ahn",
+      "Hojun Chang",
+      "Jaehoon Kim",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optics Express",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1364/OE.17.022535",
+    "link": "https://doi.org/10.1364/OE.17.022535",
+    "summary": "Demonstrates holographically fabricated GaN surface grating reflectors optimized for TE-polarized blue wavelengths, achieving >90% reflectance with ~60 nm bandwidth in agreement with coupled-wave simulations."
+  },
+  {
+    "id": 52,
+    "title": "Algan membrane grating reflector",
+    "authors": [
+      "Jaehoon Kim",
+      "Dong-Uk Kim",
+      "Joonhee Lee",
+      "Heonsu Jeon",
+      "Yeonsang Park",
+      "Y.-S. Choi"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1063/1.3168552",
+    "link": "https://doi.org/10.1063/1.3168552",
+    "summary": "Demonstrates holographically patterned AlGaN air-bridge membrane gratings (430 nm period, 0.55 fill factor) achieving ~90% TE reflectance at 532 nm, serving as alternatives to Bragg reflectors in GaN-based systems."
+  },
+  {
+    "id": 51,
+    "title": "Lateral arrays of vertical zno nanowalls on a periodically polarity-inverted zno template",
+    "authors": [
+      "Sang Hyun Lee",
+      "Tsutomu Minegishi",
+      "Jun-Seok Ha",
+      "Jin-sub Park",
+      "Hyo-Jong Lee",
+      "Hyun Jung Lee",
+      "Hitoshi Shiku",
+      "Tomokazu Matsue",
+      "Soon-Ku Hong",
+      "Heonsu Jeon"
+    ],
+    "venue": "Nanotechnology",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1088/0957-4484/20/23/235304",
+    "link": "https://doi.org/10.1088/0957-4484/20/23/235304",
+    "summary": "Reports aligned ZnO nanowall arrays selectively grown on Zn-polar regions of periodically polarity-inverted ZnO templates via carbothermal reduction, achieving high aspect ratios and confirmed single-crystalline quality."
+  },
+  {
+    "id": 50,
+    "title": "Fabrication of one-dimensional and two-dimensional periodically polarity inverted zno structures using patterned crn buffer layers",
+    "authors": [
+      "J. S. Park",
+      "T. Minegishi",
+      "S. H. Lee",
+      "I. H. Im",
+      "S. H. Park",
+      "T. Goto",
+      "M. W. Cho",
+      "T. Yao",
+      "S. K. Hong",
+      "J. W. Lee",
+      "J. Y. Lee",
+      "S. Ahn",
+      "H. Jeon",
+      "W. Lee",
+      "M. N. Jung",
+      "J. H. Chang"
+    ],
+    "venue": "Journal of Vacuum Science & Technology B",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1116/1.3119678",
+    "link": "https://doi.org/10.1116/1.3119678",
+    "summary": "Reports 1D and 2D periodically polarity-inverted ZnO structures grown on patterned CrN buffer layers, confirmed via piezoresponse force microscopy and showcasing high-quality cathodoluminescence and submicron holographically patterned ZnO templates."
+  },
+  {
+    "id": 49,
+    "title": "High-power and large-alignment-tolerance fiber coupling of honeycomb-lattice photonic crystal γ-point band-edge laser",
+    "authors": [
+      "Sunghwan Kim",
+      "Yeonsang Park",
+      "Kyungwook Hwang",
+      "Jeongkug Lee",
+      "Heonsu Jeon",
+      "Hyo Jin Kim"
+    ],
+    "venue": "Journal of the Optical Society of America B",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1364/JOSAB.26.001330",
+    "link": "https://doi.org/10.1364/JOSAB.26.001330",
+    "summary": "Honeycomb-lattice Γ-point photonic crystal lasers with butt-end fiber coupling provide >30 μW output and high alignment tolerance, with vertical oscillation influenced by angle-cleaved fiber tips."
+  },
+  {
+    "id": 48,
+    "title": "Fiber-coupled surface-emitting photonic crystal band edge laser for biochemical sensor applications",
+    "authors": [
+      "Sunghwan Kim",
+      "Jeongkug Lee",
+      "Heonsu Jeon",
+      "Hyo Jin Kim"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1063/1.3114405",
+    "link": "https://doi.org/10.1063/1.3114405",
+    "summary": "Demonstrates a Γ-point photonic crystal band-edge laser with simple butt-end fiber coupling for refractive-index sensing, achieving ~10⁻³ index resolution in an ultracompact, alignment-free platform."
+  },
+  {
+    "id": 47,
+    "title": "Gan light-emitting diode with monolithically integrated photonic crystals and angled sidewall deflectors for efficient surface emission",
+    "authors": [
+      "Joonhee Lee",
+      "Sungmo Ahn",
+      "Sihan Kim",
+      "Dong-Uk Kim",
+      "Heonsu Jeon",
+      "Seung-Jae Lee",
+      "Jong Hyeob Baek"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1063/1.3095495",
+    "link": "https://doi.org/10.1063/1.3095495",
+    "summary": "Integrates a 2D photonic crystal pattern on the sapphire substrate with angled sidewall deflectors to redirect guided photons, yielding ~2× total and 2.5× surface-normal emission improvements over conventional GaN LEDs."
+  },
+  {
+    "id": 46,
+    "title": "Gan-based light-emitting diodes directly grown on sapphire substrate with holographically generated two-dimensional photonic crystal patterns",
+    "authors": [
+      "Joonhee Lee",
+      "Dong-Ho Kim",
+      "Jaehoon Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "Current Applied Physics",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1016/j.cap.2008.05.020",
+    "link": "https://doi.org/10.1016/j.cap.2008.05.020",
+    "summary": "Integrating submicron-period 2D photonic crystal patterns at the GaN–sapphire interface via holography and ICP etching enhances bottom-emitting GaN LED efficiency."
+  },
+  {
+    "id": 45,
+    "title": "Photonic band structure calculations for metal-clad two-dimensional photonic crystal slab",
+    "authors": [
+      "Jong-Ho Choe",
+      "Q-Han Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Current Applied Physics",
+    "year": 2009,
+    "type": "Journal",
+    "doi": "10.1016/j.cap.2007.10.088",
+    "link": "https://doi.org/10.1016/j.cap.2007.10.088",
+    "summary": "FDTD and PWE studies of metal-clad 2D photonic crystal slabs show how metallic cladding mimics odd modes of dielectric air-bridge slabs while allowing reduced thickness."
+  },
+  {
+    "id": 44,
+    "title": "Effect of metallic slab cladding on photonic crystal band structures",
+    "authors": [
+      "Jong-ho Choe",
+      "Q-Han Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2008,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Analyzes square and triangular lattice photonic crystal slabs with PEC and real metal cladding via PWE and FDTD, showing significant band modifications particularly near the Γ point."
+  },
+  {
+    "id": 43,
+    "title": "Ordered arrays of zno nanorods grown on periodically polarity-inverted surfaces",
+    "authors": [
+      "M. S. Kim",
+      "J. S. Ha",
+      "Y. G. Roh",
+      "H. Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "10.1063/1.2743872",
+    "link": "",
+    "summary": "Highly ordered ZnO nanorod arrays grown on polarity-inverted templates provide controlled ZnO nanostructures for optical/electronic devices."
+  },
+  {
+    "id": 42,
+    "title": "Photonic crystal alloys: a new twist in controlling photonic band structure properties",
+    "authors": [
+      "Hee Jin Kim",
+      "Dong-Uk Kim",
+      "Young-Geun Roh",
+      "Jaejun Yu",
+      "Heonsu Jeon",
+      "Q-Han Park"
+    ],
+    "venue": "Optics Express",
+    "year": 2008,
+    "type": "Journal",
+    "doi": "10.1364/OE.16.006579",
+    "link": "",
+    "summary": "Introduces photonic crystal alloys mixing silica and alumina spheres in diamond-lattice microwave PCs, showing monotonic L-point band-edge shifts with minimal bowing consistent with virtual crystal approximation."
+  },
+  {
+    "id": 41,
+    "title": "Laterally graded porous silicon optical filter fabricated by diffusion-limited etch process",
+    "authors": [
+      "Kyungwook Hwang",
+      "Sihan Kim",
+      "Yeonsang Park",
+      "Heonsu Jeon",
+      "Jaewook Jeong"
+    ],
+    "venue": "Applied Optics",
+    "year": 2008,
+    "type": "Journal",
+    "doi": "10.1364/AO.47.001628",
+    "link": "",
+    "summary": "Laterally graded porous silicon optical filters are produced via diffusion-limited anodic etching controlled by mask design, yielding ~60 nm tunability around 1550 nm with ~3 nm bandwidth."
+  },
+  {
+    "id": 40,
+    "title": "Gan light-emitting diode with deep-angled mesa sidewalls for enhanced light emission in the surface-normal direction",
+    "authors": [
+      "Jae-Soong Lee",
+      "Joonhee Lee",
+      "Sunghwan Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "IEEE Transactions on Electron Devices",
+    "year": 2008,
+    "type": "Journal",
+    "doi": "10.1109/TED.2007.913004",
+    "link": "",
+    "summary": "GaN LEDs with deep, angled mesa sidewalls redirect laterally guided photons toward the surface-normal direction, yielding over twofold light-output enhancement for ~30° angles, confirmed by ray-optics simulation and electroluminescence measurements."
+  },
+  {
+    "id": 39,
+    "title": "Fabrication of reflective gan mesa sidewalls for the application to high extraction efficiency LEDs",
+    "authors": [
+      "Jae-Soong Lee",
+      "Joonhee Lee",
+      "Sunghwan Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "physica status solidi (c)",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "10.1002/pssc.200674806",
+    "link": "",
+    "summary": "GaN LEDs with angled, reflective mesa sidewalls exhibit smooth surfaces (~2 nm roughness) and redirect laterally guided photons, boosting total emission over threefold for ~30° sidewall angles."
+  },
+  {
+    "id": 38,
+    "title": "Butt-end fiber coupling to a surface-emitting γ-point photonic crystal band edge laser",
+    "authors": [
+      "Yeonsang Park",
+      "Sunghwan Kim",
+      "Chaeyoung Moon",
+      "Heonsu Jeon",
+      "Hyo Jin Kim"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "10.1063/1.2732835",
+    "link": "",
+    "summary": "Demonstrates a compact fiber coupling scheme for Γ-point photonic crystal band-edge lasers achieving up to 30% coupling efficiency with simple butt-end alignment."
+  },
+  {
+    "id": 37,
+    "title": "Fluorescence amplification using colloidal photonic crystal platform in sensing dye-labeled deoxyribonucleic acids",
+    "authors": [
+      "Hee Jin Kim",
+      "Sunghwan Kim",
+      "Heonsu Jeon",
+      "Jangseok Ma",
+      "Soo Hyung Choi",
+      "Soosuk Lee",
+      "Christopher Ko",
+      "Wounjhang Park"
+    ],
+    "venue": "Sensors and Actuators B: Chemical",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "10.1016/j.snb.2006.12.024",
+    "link": "",
+    "summary": "Self-assembled silica colloidal photonic crystals used as biosensing platforms show fluorescence enhancements of two orders of magnitude for dye-labeled DNA hybridization."
+  },
+  {
+    "id": 36,
+    "title": "Gan surface-emitting laser with monolithic cavity-folding mirrors",
+    "authors": [
+      "Jae-Soong Lee",
+      "Joonhee Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1109/JSTQE.2006.881915",
+    "link": "",
+    "summary": "Demonstrates a GaN-based surface-emitting laser using monolithic cavity-folding mirrors with optically pumped operation and analysis via FDTD simulations."
+  },
+  {
+    "id": 35,
+    "title": "Photonic crystal cavity lasers patterned by a combination of holography and photolithography",
+    "authors": [
+      "Chi-O Cho",
+      "Joonhee Lee",
+      "Yeonsang Park",
+      "Young-Geun Roh",
+      "Heonsu Jeon",
+      "In Kim"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "10.1109/LPT.2007.893903",
+    "link": "",
+    "summary": "Air-bridge InGaAsP photonic crystal cavity lasers fabricated via combined laser holography and photolithography achieve lasing despite structural imperfections, supported by simulations showing mode selectivity benefits."
+  },
+  {
+    "id": 34,
+    "title": "In-plane multichannel drop filter built in a homogeneous two-dimensional photonic crystal",
+    "authors": [
+      "Young-Geun Roh",
+      "Sungjoon Yoon",
+      "Heonsu Jeon",
+      "Sangin Kim",
+      "Hanjo Lim"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2007,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Experimental demonstration of in-plane multichannel photonic-crystal drop filters with ~20 dB selectivity and ~17 MHz bandwidth, consistent with FDTD simulations and improved drop efficiency via photon recycling."
+  },
+  {
+    "id": 33,
+    "title": "FDTD simulation for light extraction in a gan-based LED",
+    "authors": [
+      "W. J. Choi",
+      "Q-Han Park",
+      "Dongho Kim",
+      "Heonsu Jeon",
+      "Cheolsoo Sone",
+      "Yongjo Park"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Large-scale 3D FDTD simulations of square-lattice photonic crystal patterns on GaN LEDs reveal optimal structures for enhanced light extraction consistent with experiments."
+  },
+  {
+    "id": 32,
+    "title": "Photonic crystal superprism based on negative refraction",
+    "authors": [
+      "H. J. Kim",
+      "Q-Han Park",
+      "Heonsu Jeon",
+      "Youngho Choe"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Improves photonic crystal superprism resolution by hybrid dispersion with negative refraction, validated via FDTD simulations at telecom wavelengths."
+  },
+  {
+    "id": 31,
+    "title": "Mode-stabilized operation in a microlens-integrated 980 nm vertical-cavity surface-emitting laser",
+    "authors": [
+      "Si-Hyun Park",
+      "Sangyeon Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optical Review",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1007/s10043-006-0146-y",
+    "link": "",
+    "summary": "Investigates microlens-integrated 980 nm VCSELs achieving stable single-mode operation through microlens-induced mode stabilization, confirmed by numerical modal calculations."
+  },
+  {
+    "id": 30,
+    "title": "Gan-based light-emitting diode structure with monolithically integrated sidewall deflectors for enhanced surface emission",
+    "authors": [
+      "Jae-Soong Lee",
+      "Joonhee Lee",
+      "Sunghwan Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1109/LPT.2006.879559",
+    "link": "",
+    "summary": "Angled sidewall deflectors integrated monolithically into GaN LED mesas redirect photons toward the surface, boosting emission strength by more than threefold."
+  },
+  {
+    "id": 29,
+    "title": "Comparison of structural and optical properties of inas quantum dots grown by migration-enhanced molecular-beam epitaxy and conventional molecular-beam epitaxy",
+    "authors": [
+      "N. K. Cho",
+      "S. P. Ryu",
+      "J. D. Song",
+      "W. J. Choi",
+      "J. I. Lee",
+      "Heonsu Jeon"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1063/1.2189195",
+    "link": "",
+    "summary": "Compares InAs quantum dots grown by migration-enhanced vs conventional MBE, showing thinner wetting layers, larger uniform dots, and better optical properties for the enhanced method."
+  },
+  {
+    "id": 28,
+    "title": "Near-field photoluminescence study of inas/algaas quantum-dot-based nanoclusters: band-filling effect",
+    "authors": [
+      "Young-Jun Yu",
+      "Haneol Noh",
+      "Mun-Heon Hong",
+      "In-Taek Jeong",
+      "Jong-Chun Woo",
+      "Yeonsang Park",
+      "Heonsu Jeon",
+      "Wonho Jhe"
+    ],
+    "venue": "Japanese Journal of Applied Physics",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1143/JJAP.45.656",
+    "link": "",
+    "summary": "Near-field spectroscopy of InAs/AlGaAs quantum-dot nanoclusters reveals band-filling effects with up to 20 meV blueshift as excitation power increases, mapping luminescence energy shifts in real space."
+  },
+  {
+    "id": 27,
+    "title": "Microchip-type ingan vertical external-cavity surface-emitting laser",
+    "authors": [
+      "Si-Hyun Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Optical Review",
+    "year": 2006,
+    "type": "Journal",
+    "doi": "10.1007/s10043-006-0020-y",
+    "link": "",
+    "summary": "Fabricated microchip-type InGaN VECSELs with integrated microlenses, showing optimized curvature for low threshold, high slope efficiency, and stable multimode operation consistent with Gaussian beam theory."
+  },
+  {
+    "id": 26,
+    "title": "Enhanced light extraction from gan-based light-emitting diodes with holographically generated two-dimensional photonic crystal patterns",
+    "authors": [
+      "Dong-Ho Kim",
+      "Chi-O Cho",
+      "Yeong-Geun Roh",
+      "Heonsu Jeon",
+      "Yoon Soo Park",
+      "Jaehee Cho",
+      "Jin Seo Im",
+      "Cheolsoo Sone",
+      "Yongjo Park",
+      "Won Jun Choi",
+      "Q-Han Park"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2005,
+    "type": "Journal",
+    "doi": "10.1063/1.2132073",
+    "link": "",
+    "summary": "GaN LEDs integrated with holographically generated two-dimensional photonic crystal patterns exhibit over twofold light output enhancement, consistent with 3D FDTD simulations."
+  },
+  {
+    "id": 25,
+    "title": "Photonic crystal band edge laser array with a holographically generated square-lattice pattern",
+    "authors": [
+      "Chi-O Cho",
+      "Jaewook Jeong",
+      "Joonhee Lee",
+      "Heonsu Jeon",
+      "In Kim",
+      "Dong Hoon Jang",
+      "Yoon Soo Park",
+      "Jong Chun Woo"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2005,
+    "type": "Journal",
+    "doi": "10.1063/1.2103422",
+    "link": "",
+    "summary": "Square-lattice photonic crystal band-edge laser arrays fabricated by laser holography exhibit large-area, high-throughput lasing with predictable mode shifts along the array."
+  },
+  {
+    "id": 24,
+    "title": "Photonic bandgap engineering in mixed colloidal photonic crystals",
+    "authors": [
+      "Hee Jin Kim",
+      "Young-Geun Roh",
+      "Heonsu Jeon"
+    ],
+    "venue": "Japanese Journal of Applied Physics",
+    "year": 2005,
+    "type": "Journal",
+    "doi": "10.1143/JJAP.44.L1259",
+    "link": "",
+    "summary": "Mixed silica/polystyrene colloidal photonic crystals show tunable bandgaps with L-point red shifts, matching effective-medium predictions."
+  },
+  {
+    "id": 23,
+    "title": "Experimental verification of cross talk reduction in photonic crystal waveguide crossings",
+    "authors": [
+      "Young-Geun Roh",
+      "Sungjoon Yoon",
+      "Heonsu Jeon",
+      "Seung-Ho Han",
+      "Q-Han Park"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "10.1063/1.1808224",
+    "link": "",
+    "summary": "Demonstrates resonant-cavity-enhanced photonic crystal waveguide crossings with up to −30 dB cross-talk reduction at resonance, validated by microwave experiments and simulations."
+  },
+  {
+    "id": 22,
+    "title": "Effects of microlens curvature on the operation of microlens-integrated extended cavity gan VCSELs",
+    "authors": [
+      "Si-Hyun Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "physica status solidi (a)",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "10.1002/pssa.200405110",
+    "link": "",
+    "summary": "Extended-cavity GaN VCSELs with integrated microlenses exhibit curvature-dependent performance, with an optimum radius giving the lowest threshold and highest slope efficiency while maintaining single-mode lasing."
+  },
+  {
+    "id": 21,
+    "title": "Double-layer antireflection coating design for one-dimensional photonic crystals",
+    "authors": [
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of Lightwave Technology",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Develops theoretical formalism for double-layer antireflection coatings tailored to 1D photonic crystals, with numerical validation on GaAs/AlAs-oxide structures."
+  },
+  {
+    "id": 20,
+    "title": "Geometric improvements of light transmission at photonic crystal waveguide bends",
+    "authors": [
+      "S.-H. Han",
+      "Q.-Han Park",
+      "Y. S. Park",
+      "Y. Roh",
+      "H. S. Jeon"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Evaluates three geometric strategies for photonic crystal waveguide bends via 3D FDTD, showing hybrid bandgap/index-guided structures minimize radiative losses."
+  },
+  {
+    "id": 19,
+    "title": "Propagation properties in a 2 + 1-dimensional hybrid photonic crystal waveguide",
+    "authors": [
+      "S. H. Han",
+      "Q. Han Park",
+      "Y. S. Park",
+      "Y. Roh",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Numerical study of dressed slab photonic crystal waveguides with omni-directional mirrors shows reduced radiative loss, detailed defect/stop-band/group-velocity characteristics, and low-leakage guidance possibilities."
+  },
+  {
+    "id": 18,
+    "title": "Photonic crystal slab waveguides fabricated by the combination of holography and photolithography",
+    "authors": [
+      "Chi-O Cho",
+      "Young-Geun Roh",
+      "Yeonsang Park",
+      "Heonsu Jeon",
+      "Beom-Seok Lee",
+      "Hye-Won Kim",
+      "Young-Ho Choe"
+    ],
+    "venue": "Japanese Journal of Applied Physics",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "10.1143/JJAP.43.1384",
+    "link": "",
+    "summary": "Air-bridge 2D photonic crystal waveguides fabricated via holography and photolithography exhibit guiding through straight and 90°-bent sections at 1.55 μm with propagation loss ~40 cm⁻¹."
+  },
+  {
+    "id": 17,
+    "title": "Towards nano-waveguides",
+    "authors": [
+      "Chi-O Cho",
+      "Young-Geun Roh",
+      "Yeonsang Park",
+      "Jae-Soong I",
+      "Heonsu Jeon",
+      "Beom-Seok Lee",
+      "Hye-Won Kim",
+      "Young-Ho Choe",
+      "Mingyu Sung",
+      "J.C. Woo"
+    ],
+    "venue": "Current Applied Physics",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "10.1016/j.cap.2003.11.020",
+    "link": "",
+    "summary": "Explores design concepts for nanoscale waveguides using photonic-crystal and dielectric structures, discussing confinement mechanisms and integration prospects."
+  },
+  {
+    "id": 16,
+    "title": "Optimal design for one-dimensional photonic crystal waveguide",
+    "authors": [
+      "Jae-Soong I",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of Lightwave Technology",
+    "year": 2004,
+    "type": "Journal",
+    "doi": "10.1109/JLT.2004.824392",
+    "link": "",
+    "summary": "Proposes design logic for 1D photonic crystal waveguides based on effective wavelength projections and demonstrates functionality via numerical calculations on GaAs-AlAs oxide structures."
+  },
+  {
+    "id": 15,
+    "title": "Room-temperature gan vertical-cavity surface-emitting laser operation in an extended cavity scheme",
+    "authors": [
+      "Si-Hyun Park",
+      "Jaehoon Kim",
+      "Heonsu Jeon",
+      "Tan Sakong",
+      "Sung-Nam Lee",
+      "Suhee Chae",
+      "Y. Park",
+      "Changhyun Jeong",
+      "Geun-Young Yeom",
+      "Yong-Hoon Cho"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2003,
+    "type": "Journal",
+    "doi": "10.1063/1.1611643",
+    "link": "",
+    "summary": "An extended-cavity GaN VCSEL with integrated microlens and high-reflection mirrors achieves room-temperature lasing at ~160 kW/cm² excitation."
+  },
+  {
+    "id": 14,
+    "title": "Theory of the mode stabilization mechanism in concave-micromirror-capped vertical-cavity surface-emitting lasers",
+    "authors": [
+      "Si-Hyun Park",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of Applied Physics",
+    "year": 2003,
+    "type": "Journal",
+    "doi": "10.1063/1.1586962",
+    "link": "",
+    "summary": "Theoretical study of mode stabilization in oxide-confined CMC-VCSELs identifies micromirror thickness periodicity and optimal curvature structures that strongly favor the fundamental transverse mode."
+  },
+  {
+    "id": 13,
+    "title": "Enhanced light extraction from organic light-emitting diodes with 2d sio₂/sinₓ photonic crystals",
+    "authors": [
+      "Yong-Rim Do",
+      "Y.C. Kim",
+      "Y.-W. Song",
+      "C.-O Cho",
+      "Heonsu Jeon",
+      "Y.-J. Lee",
+      "S.-H. Kim",
+      "Y.-H. Lee"
+    ],
+    "venue": "Advanced Materials",
+    "year": 2003,
+    "type": "Journal",
+    "doi": "10.1002/adma.200304857",
+    "link": "",
+    "summary": "Introduces a 2D SiO₂/SiNₓ photonic-crystal layer to mitigate light trapping in OLEDs, improving current–voltage–luminance characteristics and lifetime via enhanced light extraction."
+  },
+  {
+    "id": 12,
+    "title": "Photonic crystal waveguides with multiple 90° bends",
+    "authors": [
+      "Young-Geun Roh",
+      "Sungjoon Yoon",
+      "Sunghwan Kim",
+      "Heonsu Jeon",
+      "Seung-Ho Han",
+      "Q-Han Park",
+      "Inkyu Park"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2003,
+    "type": "Journal",
+    "doi": "10.1063/1.1591080",
+    "link": "",
+    "summary": "Microwave photonic-crystal waveguides sandwiched between metal plates maintain excellent guiding through multiple 90° bends, with propagation velocity ≈0.47c and bending loss of ~0.1 dB per bend, emphasizing vertical confinement benefits."
+  },
+  {
+    "id": 11,
+    "title": "Gaas-based near-infrared omnidirectional reflector",
+    "authors": [
+      "Yeonsang Park",
+      "Young-Geun Roh",
+      "Chi-O Cho",
+      "Heonsu Jeon",
+      "Min Gyu Sung",
+      "J. C. Woo"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2003,
+    "type": "Journal",
+    "doi": "10.1063/1.1569045",
+    "link": "",
+    "summary": "A GaAs/AlAs multilayer stack converted to GaAs/Al2O3 via selective oxidation forms a 1D photonic crystal with omnidirectional reflection below 1 μm, matching simulations across angles and polarizations."
+  },
+  {
+    "id": 10,
+    "title": "A dielectric omnidirectional near-infrared reflector",
+    "authors": [
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of the Optical Society of Korea",
+    "year": 2002,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Theoretical and experimental study of 1.3 μm omnidirectional reflectors using alternating amorphous silicon/silica layers, confirming omnidirectional photonic bandgaps."
+  },
+  {
+    "id": 9,
+    "title": "Enhanced optical coupling performance in an ingaas photodiode integrated with wet-etched microlens",
+    "authors": [
+      "S.R. Cho",
+      "J. Kim",
+      "K.S. Oh",
+      "S.K. Yang",
+      "J.H. Baek",
+      "D.H. Jang",
+      "T.I. Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2002,
+    "type": "Journal",
+    "doi": "10.1109/68.988398",
+    "link": "",
+    "summary": "Wet-etched microlenses integrated with InGaAs photodiodes enhance optical coupling efficiency and improve alignment tolerance."
+  },
+  {
+    "id": 8,
+    "title": "Design, fabrication, and micro-reflectance measurement of a gaas/alas-oxide antireflection film",
+    "authors": [
+      "Yeonsang Park",
+      "Joong-Seon Choe",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2002,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Oxide-based GaAs/AlAs antireflection coatings exhibit low reflectance verified through micro-reflectance measurements."
+  },
+  {
+    "id": 7,
+    "title": "Microlensed vertical-cavity surface-emitting laser for stable single fundamental mode operation",
+    "authors": [
+      "Si-Hyun Park",
+      "Yeonsang Park",
+      "Hyeyin Kim",
+      "Heonsu Jeon",
+      "Seong Mo Hwang",
+      "Jeong Kwan Lee",
+      "Seung Ho Nam",
+      "Byeong Cheon Koh",
+      "J. Y. Sohn",
+      "D. S. Kim"
+    ],
+    "venue": "Applied Physics Letters",
+    "year": 2002,
+    "type": "Journal",
+    "doi": "10.1063/1.1432744",
+    "link": "",
+    "summary": "Demonstrates a VCSEL with an integrated microlens that forces lasing into the fundamental mode, ensuring stable single-mode operation over a wide current range."
+  },
+  {
+    "id": 6,
+    "title": "One-dimensional photonic crystal waveguide: a frame for photonic integrated circuits",
+    "authors": [
+      "Jae-Soong I",
+      "Yeonsang Park",
+      "Heonsu Jeon"
+    ],
+    "venue": "Journal of the Korean Physical Society",
+    "year": 2001,
+    "type": "Journal",
+    "doi": "",
+    "link": "",
+    "summary": "Introduces 1D photonic crystal waveguides optimized for photonic integrated circuits, providing high confinement and tunable propagation."
+  },
+  {
+    "id": 5,
+    "title": "Refractive sapphire microlenses fabricated by chlorine-based inductively coupled plasma etching",
+    "authors": [
+      "Si-Hyun Park",
+      "Heonsu Jeon",
+      "Yoon-Joon Sung",
+      "Geun-Young Yeom"
+    ],
+    "venue": "Applied Optics",
+    "year": 2001,
+    "type": "Journal",
+    "doi": "10.1364/AO.40.003698",
+    "link": "",
+    "summary": "Fabricated refractive sapphire microlenses via chlorine-based ICP etching of thermally reflowed photoresist patterns, achieving near-diffraction-limited performance."
+  },
+  {
+    "id": 4,
+    "title": "Optical microscope imaging of semiconductor quantum wells",
+    "authors": [
+      "Hyejin Kim",
+      "Jaehoon Kim",
+      "Heonsu Jeon"
+    ],
+    "venue": "Semiconductor Science and Technology",
+    "year": 2001,
+    "type": "Journal",
+    "doi": "10.1088/0268-1242/16/5/102",
+    "link": "",
+    "summary": "Demonstrates optical microscopy methods to visualize semiconductor quantum wells, detailing contrast mechanisms and imaging limitations for low-dimensional semiconductors."
+  },
+  {
+    "id": 3,
+    "title": "Lateral oxidation of alas layers at elevated water vapour pressure using a closed-chamber system",
+    "authors": [
+      "Joong-Seon Choe",
+      "Si-Hyun Park",
+      "Byung-Doo Choe",
+      "Heonsu Jeon"
+    ],
+    "venue": "Semiconductor Science and Technology",
+    "year": 2000,
+    "type": "Journal",
+    "doi": "10.1088/0268-1242/15/10/102",
+    "link": "",
+    "summary": "Closed-chamber lateral oxidation of AlAs at elevated water vapor pressures provides controlled oxide-aperture formation for VCSELs."
+  },
+  {
+    "id": 2,
+    "title": "Semiconductor microlenses fabricated by one-step wet etching",
+    "authors": [
+      "Yu-Sik Kim",
+      "Jaehoon Kim",
+      "Joong-Seon Choe",
+      "Young-Geun Roh",
+      "Heonsu Jeon",
+      "J.C. Woo"
+    ],
+    "venue": "IEEE Photonics Technology Letters",
+    "year": 2000,
+    "type": "Journal",
+    "doi": "10.1109/68.841268",
+    "link": "",
+    "summary": "Diffusion-limited Br₂ chemical etching yields high-quality GaAs/InP microlenses with ~30 μm diameter, 91/36 μm focal lengths, and sub-10 nm roughness, offering a simple, high-yield fabrication route for micro-optics."
+  },
+  {
+    "id": 1,
+    "title": "12 Nm tunable WDM source using an integrated laser array",
+    "authors": [
+      "B. Pezeshki",
+      "A. Mathur",
+      "S. Zou",
+      "H.-S. Jeon",
+      "V. Agrawal",
+      "R.L. Lang"
+    ],
+    "venue": "Electronics Letters",
+    "year": 2000,
+    "type": "Journal",
+    "doi": "10.1049/el:20000604",
+    "link": "",
+    "summary": "An integrated four-DFB-laser WDM source with a booster amplifier delivers up to 15 mW fiber-coupled power with 12 nm tuning, leveraging quarter-wave-shifted phase-masks and a two-step regrowth process for cost-effective fabrication."
+  }
+]
