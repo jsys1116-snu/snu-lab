@@ -10,6 +10,7 @@
     "generate:pubs": "ts-node --files src/scripts/bib2json.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.83.0",
     "bibtex-parse-js": "^0.0.24",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",

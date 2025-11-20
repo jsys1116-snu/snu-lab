@@ -27,14 +27,14 @@ export default async function PublicationsPage() {
   return (
     <section className="space-y-8">
       <header>
-        <p className="text-sm uppercase tracking-widest text-gray-500">Publications</p>
-        <h1 className="mt-2 text-3xl font-semibold">Outputs from our lab</h1>
+        <p className="text-sm uppercase tracking-widest text-gray-500">With thanks to our collaborators</p>
+        <h1 className="mt-2 text-3xl font-semibold">Publications</h1>
         <p className="mt-2 text-gray-600">저널, 컨퍼런스, 특허 등 μNOEL의 연구 결과를 한눈에 볼 수 있습니다.</p>
       </header>
 
       {years.map((yearKey) => (
         <div key={yearKey} className="space-y-4">
-          <h2 className="text-2xl font-semibold">{yearKey === 'Unsorted' ? '연도 미상' : yearKey}</h2>
+          <h2 className="text-2xl font-semibold">{yearKey === 'Unsorted' ? 'Unsorted' : yearKey}</h2>
           <div className="space-y-4">
             {grouped[yearKey]?.map((pub: PublicationListType[number]) => (
               <article key={pub.id} className="rounded-2xl border p-5">
@@ -57,7 +57,7 @@ export default async function PublicationsPage() {
                     if (!href) return null;
                     return (
                       <a href={href} className="text-indigo-600 hover:underline">
-                        자세히 보기
+                        View detail
                       </a>
                     );
                   })()}

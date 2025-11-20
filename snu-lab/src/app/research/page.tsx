@@ -42,8 +42,8 @@ export default async function ResearchPage() {
   return (
     <section className="space-y-10">
       <header className="space-y-4">
-        <p className="text-base uppercase tracking-[0.25em] text-gray-500">Lab Overview</p>
-        <h1 className="text-4xl font-semibold text-gray-900">Research Focus at μNOEL</h1>
+        <p className="text-sm uppercase tracking-widest text-gray-500">Our Latest Research Outputs</p>
+        <h1 className="text-4xl font-semibold text-gray-900">Research at μNOEL</h1>
         <p className="text-xl font-medium leading-relaxed text-gray-800">
           The Micro &amp; Nano Opto-Electronics Laboratory (μNOEL) at Seoul National University studies light emission,
           absorption, resonance, and mode control in engineered micro- and nanoscale photonic structures. Our research

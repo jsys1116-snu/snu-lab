@@ -5,6 +5,7 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import type { NewsMeta, NewsPost, PeopleData, PublicationList, ResearchProject } from './types';
 import { normalizeBibEntry, type RawBibEntry } from './publications';
+import { supabase } from './supabaseClient';
 
 const rootPath = process.cwd();
 const dataPath = path.join(rootPath, 'src', 'data');
@@ -34,12 +35,18 @@ async function loadBibtex(): Promise<PublicationList> {
 
 export async function getPublications(): Promise<PublicationList> {
   try {
-    // Prefer generated JSON if available (faster in dev)
-    const jsonPath = path.join(dataPath, 'publications.json');
-    const raw = await fs.readFile(jsonPath, 'utf-8');
-    if (!raw.trim()) throw new Error('Empty JSON');
-    return JSON.parse(raw) as PublicationList;
+    const { data, error } = await supabase
+      .from('publications')
+      .select('*')
+      .order('id', { ascending: false });
+
+    if (error) {
+      throw error;
+    }
+
+    return (data ?? []) as PublicationList;
   } catch {
+    // Fallback to local BibTeX parsing if Supabase is unreachable
     return loadBibtex();
   }
 }
