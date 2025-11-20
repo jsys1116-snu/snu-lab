@@ -16,11 +16,10 @@ export function middleware(req: NextRequest) {
   }
 
   const adminToken = req.cookies.get('admin_token')?.value;
-  const expected = process.env.ADMIN_TOKEN;
+  const expected = process.env.ADMIN_TOKEN || '';
 
-  if (adminToken && expected && adminToken === expected) {
-    return NextResponse.next();
-  }
+  // env가 비어 있어도 우회하지 않도록 강제
+  if (adminToken && adminToken === expected) return NextResponse.next();
 
   // 권한 없으면 로그인 페이지로
   const loginUrl = req.nextUrl.clone();
