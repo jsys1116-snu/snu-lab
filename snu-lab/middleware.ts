@@ -6,6 +6,11 @@ const PROTECTED_PREFIXES = ["/admin", "/api/admin"];
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // Allow login API itself (otherwise POST /api/admin/auth would be redirected)
+  if (pathname.startsWith("/api/admin/auth")) {
+    return NextResponse.next();
+  }
+
   // Bypass if path is not protected
   if (!PROTECTED_PREFIXES.some((p) => pathname.startsWith(p))) {
     return NextResponse.next();
