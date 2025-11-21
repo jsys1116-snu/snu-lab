@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 type FormState = {
+  id?: number;
   title: string;
   authors: string;
   venue: string;
@@ -39,6 +40,8 @@ export default function AdminPublicationsPage() {
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [logoutError, setLogoutError] = useState<string | null>(null);
+  const [list, setList] = useState<Publication[]>([]);
+  const [fetchError, setFetchError] = useState<string | null>(null);
 
   // 토큰 검증: 페이지 진입 시마다 확인
   useEffect(() => {
@@ -58,6 +61,25 @@ export default function AdminPublicationsPage() {
     };
     verify();
   }, [router]);
+
+  useEffect(() => {
+    if (!checking) {
+      loadList();
+    }
+  }, [checking]);
+
+  const loadList = async () => {
+    setFetchError(null);
+    try {
+      const res = await fetch('/api/admin/publications');
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || '불러오기에 실패했습니다.');
+      setList(data.publications ?? []);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : '불러오기에 실패했습니다.';
+      setFetchError(msg);
+    }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -81,11 +103,14 @@ export default function AdminPublicationsPage() {
         year: form.year ? Number(form.year) : null
       };
 
-      const res = await fetch('/api/admin/publications', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
+      const res = await fetch(
+        form.id ? `/api/admin/publications/${form.id}` : '/api/admin/publications',
+        {
+          method: form.id ? 'PUT' : 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        }
+      );
 
       const data = await res.json();
       if (!res.ok) {
@@ -94,11 +119,44 @@ export default function AdminPublicationsPage() {
 
       setMessage(`Saved: #${data.publication.id} ${data.publication.title}`);
       setForm(initialState);
+      loadList();
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Something went wrong';
       setError(message);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleEdit = (pub: Publication) => {
+    setForm({
+      id: pub.id,
+      title: pub.title,
+      authors: pub.authors.join(', '),
+      venue: pub.venue ?? '',
+      year: pub.year ? String(pub.year) : '',
+      type: pub.type ?? '',
+      doi: pub.doi ?? '',
+      link: pub.link ?? '',
+      volume: pub.volume ?? '',
+      issue: pub.issue ?? '',
+      pages: pub.pages ?? '',
+      summary: pub.summary ?? ''
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleDelete = async (id: number) => {
+    if (!confirm(`정말 #${id} 항목을 삭제할까요?`)) return;
+    try {
+      const res = await fetch(`/api/admin/publications/${id}`, { method: 'DELETE' });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || '삭제에 실패했습니다.');
+      setMessage(`Deleted #${id}`);
+      loadList();
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : '삭제에 실패했습니다.';
+      setError(msg);
     }
   };
 
@@ -239,12 +297,46 @@ export default function AdminPublicationsPage() {
             disabled={loading}
             className="rounded bg-indigo-600 px-4 py-2 text-white hover:bg-indigo-700 disabled:opacity-50"
           >
-            {loading ? 'Saving...' : 'Save Publication'}
+            {loading ? 'Saving...' : form.id ? 'Update Publication' : 'Save Publication'}
           </button>
           {message && <p className="text-sm text-green-600">{message}</p>}
           {error && <p className="text-sm text-red-600">{error}</p>}
         </div>
       </form>
+
+      <section className="space-y-3 rounded-2xl border p-5 shadow-sm">
+        <h2 className="text-xl font-semibold">Existing Publications</h2>
+        {fetchError && <p className="text-sm text-red-600">{fetchError}</p>}
+        <div className="space-y-2">
+          {list.map((pub) => (
+            <div key={pub.id} className="flex items-start justify-between gap-3 rounded border p-3 text-sm">
+              <div className="space-y-1">
+                <p className="text-xs text-gray-500">#{pub.id}</p>
+                <p className="font-semibold text-gray-900">{pub.title}</p>
+                <p className="text-gray-700">{pub.authors.join(', ')}</p>
+                {pub.year && <p className="text-gray-500">{pub.year}</p>}
+              </div>
+              <div className="flex flex-shrink-0 items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => handleEdit(pub)}
+                  className="rounded border px-2 py-1 text-xs text-gray-700 hover:bg-gray-100"
+                >
+                  Edit
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleDelete(pub.id)}
+                  className="rounded border px-2 py-1 text-xs text-red-600 hover:bg-red-50"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          ))}
+          {list.length === 0 && <p className="text-sm text-gray-500">No publications yet.</p>}
+        </div>
+      </section>
     </section>
   );
 }

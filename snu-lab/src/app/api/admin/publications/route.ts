@@ -1,6 +1,16 @@
 import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 
+export async function GET() {
+  const { data, error } = await supabaseAdmin
+    .from('publications')
+    .select('*')
+    .order('id', { ascending: false });
+
+  if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+  return NextResponse.json({ publications: data ?? [] }, { status: 200 });
+}
+
 export async function POST(request: Request) {
   const body = await request.json().catch(() => null);
   if (!body) {
@@ -25,21 +35,25 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: 'title and authors (array) are required' }, { status: 400 });
   }
 
-  const { data, error } = await supabaseAdmin.from('publications').insert([
-    {
-      title,
-      authors,
-      venue,
-      year: year ? Number(year) : null,
-      type,
-      doi,
-      link,
-      volume,
-      issue,
-      pages,
-      summary
-    }
-  ]).select().single();
+  const { data, error } = await supabaseAdmin
+    .from('publications')
+    .insert([
+      {
+        title,
+        authors,
+        venue,
+        year: year ? Number(year) : null,
+        type,
+        doi,
+        link,
+        volume,
+        issue,
+        pages,
+        summary
+      }
+    ])
+    .select()
+    .single();
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
