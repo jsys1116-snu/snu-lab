@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 type FormState = {
   title: string;
@@ -31,11 +32,32 @@ const initialState: FormState = {
 };
 
 export default function AdminPublicationsPage() {
+  const router = useRouter();
+  const [checking, setChecking] = useState(true);
   const [form, setForm] = useState<FormState>(initialState);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [logoutError, setLogoutError] = useState<string | null>(null);
+
+  // 토큰 검증: 페이지 진입 시마다 확인
+  useEffect(() => {
+    const verify = async () => {
+      try {
+        const res = await fetch('/api/admin/auth/check', { method: 'GET' });
+        if (!res.ok) {
+          router.push('/admin/login');
+          return;
+        }
+      } catch {
+        router.push('/admin/login');
+        return;
+      } finally {
+        setChecking(false);
+      }
+    };
+    verify();
+  }, [router]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -91,6 +113,14 @@ export default function AdminPublicationsPage() {
       setLogoutError(msg);
     }
   };
+
+  if (checking) {
+    return (
+      <section className="mx-auto max-w-3xl p-6 text-center text-sm text-gray-500">
+        Checking session...
+      </section>
+    );
+  }
 
   return (
     <section className="mx-auto max-w-3xl space-y-6 p-6">
