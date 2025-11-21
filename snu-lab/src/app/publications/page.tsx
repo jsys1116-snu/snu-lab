@@ -13,9 +13,10 @@ function groupByYear(records: PublicationListType) {
 
 export default async function PublicationsPage() {
   const publications = await getPublications();
-  const displayMap = new Map<number, number>();
+  // Map id (string|number) -> display index (continuous descending order)
+  const displayMap = new Map<string, number>();
   publications.forEach((pub, idx) => {
-    displayMap.set(pub.id, publications.length - idx);
+    displayMap.set(String(pub.id), publications.length - idx);
   });
 
   const grouped = groupByYear(publications);
@@ -42,7 +43,7 @@ export default async function PublicationsPage() {
           <h2 className="text-2xl font-semibold">{yearKey === "Unsorted" ? "Unsorted" : yearKey}</h2>
           <div className="space-y-4">
             {grouped[yearKey]?.map((pub: PublicationListType[number]) => {
-              const displayNumber = displayMap.get(pub.id) ?? pub.id;
+              const displayNumber = displayMap.get(String(pub.id)) ?? Number(pub.id) ?? 0;
               return (
                 <article key={pub.id} className="rounded-2xl border p-5">
                   {pub.type && <p className="text-xs uppercase tracking-wide text-gray-500">{pub.type}</p>}
