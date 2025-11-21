@@ -35,6 +35,7 @@ export default function AdminPublicationsPage() {
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [logoutError, setLogoutError] = useState<string | null>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -79,12 +80,34 @@ export default function AdminPublicationsPage() {
     }
   };
 
+  const handleLogout = async () => {
+    setLogoutError(null);
+    try {
+      const res = await fetch('/api/admin/logout', { method: 'POST' });
+      if (!res.ok) throw new Error('로그아웃에 실패했습니다.');
+      window.location.href = '/admin/login';
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : '로그아웃에 실패했습니다.';
+      setLogoutError(msg);
+    }
+  };
+
   return (
     <section className="mx-auto max-w-3xl space-y-6 p-6">
       <header className="space-y-2">
         <p className="text-sm uppercase tracking-widest text-gray-500">Admin</p>
         <h1 className="text-3xl font-semibold">Add Publication</h1>
         <p className="text-gray-600">Comma로 구분된 저자 목록을 입력하고 필요한 필드를 채운 뒤 저장하세요.</p>
+        <div className="flex items-center gap-3">
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="text-sm text-indigo-600 hover:underline"
+          >
+            Logout
+          </button>
+          {logoutError && <span className="text-xs text-red-600">{logoutError}</span>}
+        </div>
       </header>
 
       <form onSubmit={handleSubmit} className="space-y-4 rounded-2xl border p-5 shadow-sm">

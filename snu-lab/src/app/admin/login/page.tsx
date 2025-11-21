@@ -28,8 +28,6 @@ export default function AdminLoginPage() {
         throw new Error(data.error || '인증에 실패했습니다.');
       }
 
-      // 인증 성공 시에만 쿠키 저장
-      document.cookie = `admin_token=${encodeURIComponent(password)}; path=/; max-age=86400`;
       router.push('/admin/publications');
     } catch (err) {
       const message = err instanceof Error ? err.message : '인증에 실패했습니다.';
