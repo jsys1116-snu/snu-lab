@@ -160,13 +160,14 @@ export default function AdminPublicationsPage() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleDelete = async (id: number) => {
-    if (!confirm(`정말 #${id} 을(를) 삭제할까요?`)) return;
+  const handleDelete = async (id: number, displayNumber?: number) => {
+    const label = displayNumber ?? id;
+    if (!confirm(`정말 #${label} 을(를) 삭제할까요?`)) return;
     try {
       const res = await fetch(`/api/admin/publications/${id}`, { method: "DELETE" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "삭제에 실패했습니다.");
-      setMessage("Deleted");
+      setMessage(`Deleted #${label}`);
       loadList();
     } catch (err) {
       const msg = err instanceof Error ? err.message : "삭제에 실패했습니다.";
@@ -342,7 +343,7 @@ export default function AdminPublicationsPage() {
                   </button>
                   <button
                     type="button"
-                    onClick={() => handleDelete(pub.id)}
+                    onClick={() => handleDelete(pub.id, displayNumber)}
                     className="rounded border px-2 py-1 text-xs text-red-600 hover:bg-red-50"
                   >
                     Delete
