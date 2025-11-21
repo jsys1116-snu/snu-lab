@@ -1,5 +1,10 @@
 ﻿import { getPublications } from "@/lib/data";
 
+// Always fetch latest publications (disable static caching)
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
+
 type PublicationListType = Awaited<ReturnType<typeof getPublications>>;
 
 function groupByYear(records: PublicationListType) {
@@ -79,3 +84,4 @@ export default async function PublicationsPage() {
     </section>
   );
 }
+
