@@ -1,11 +1,11 @@
 {
   "faculty": [
     {
-      "name": "Heonsu Jeon(전헌수)",
+      "name": "Heonsu Jeon (전헌수)",
       "title": "Professor, Department of Physics & Astronomy",
       "currentAffiliation": "Department of Physics & Astronomy, Seoul National University",
       "email": "hsjeon@snu.ac.kr",
-      "image": "/images/jeon.jpg",
+      "image": "/images/전헌수.jpg",
       "office": "Rm. 56-334",
       "address": "Department of Physics & Astronomy, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea",
       "phone": "+82-2-880-6265",
@@ -40,13 +40,13 @@
   ],
   "postdocs": [
     {
-      "name": "Tae-Yun Lee(이태윤)",
+      "name": "Tae-Yun Lee (이태윤)",
       "title": "Postdoctoral Researcher",
       "email": "aaaaa@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Myeongeun Kim(김명은)",
+      "name": "Myeongeun Kim (김명은)",
       "title": "Postdoctoral Researcher",
       "email": "jungdab1879@snu.ac.kr",
       "note": ""
@@ -54,42 +54,42 @@
   ],
   "phd": [
     {
-      "name": "Hansol Lee(이한솔)",
+      "name": "Hansol Lee (이한솔)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "neptuns@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Lak-Jong Jeong(정락종)",
+      "name": "Lak-Jong Jeong (정락종)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "jlj9141@naver.com",
       "note": ""
     },
     {
-      "name": "Seung Hwan Sin(신승환)",
+      "name": "Seung Hwan Sin (신승환)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "paulcin@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Heesoo Jin(진희수)",
+      "name": "Heesoo Jin (진희수)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "rapaeljin@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Taehyeok Kim(김태혁)",
+      "name": "Taehyok Kim (김태혁)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "gimth95@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Ye-Seong Song(송예성)",
+      "name": "Ye-Seong Song (송예성)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "jsys1116@snu.ac.kr",
@@ -98,5 +98,261 @@
   ],
   "masters": [],
   "staff": [],
-  "alumni": []
+  "alumni": [
+    {
+      "name": "김명은",
+      "title": "Alumni",
+      "email": "jungdab1879@snu.ac.kr",
+      "note": "2025.2 졸업 · 서울대 물리천문학부 포닥"
+    },
+    {
+      "name": "이태윤",
+      "title": "Alumni",
+      "email": "aaaaa@snu.ac.kr",
+      "note": "2023.2 졸업 · 서울대 물리천문학부 포닥"
+    },
+    {
+      "name": "강민수",
+      "title": "Alumni",
+      "email": "mskang4152@naver.com",
+      "note": "2021.3 졸업 · 삼성전자 반도체연"
+    },
+    {
+      "name": "한창현",
+      "title": "Alumni",
+      "email": "divarer@naver.com",
+      "note": "2020.8 졸업 · SK hynix (TL)"
+    },
+    {
+      "name": "정현호",
+      "title": "Alumni",
+      "email": "faerie87@snu.ac.kr",
+      "note": "2018.8 졸업 · 삼성디스플레이"
+    },
+    {
+      "name": "이명재",
+      "title": "Alumni",
+      "email": "myungjae@snu.ac.kr",
+      "note": "2018.2 졸업 · 서울대 재료공학부 조교수"
+    },
+    {
+      "name": "김한빛",
+      "title": "Alumni",
+      "email": "sambitee@gmail.com",
+      "note": "2018.2 졸업 · 삼성디스플레이"
+    },
+    {
+      "name": "이종호",
+      "title": "Alumni",
+      "email": "jongho75.lee@gmail.com",
+      "note": "2018.2 졸업 · 삼성전자 LED사업팀"
+    },
+    {
+      "name": "차형래",
+      "title": "Alumni",
+      "email": "hyungrae82@hotmail.com",
+      "note": "2016.2 졸업 · 삼성디스플레이 연구원"
+    },
+    {
+      "name": "장호준",
+      "title": "Alumni",
+      "email": "hojun.chang@samsung.com",
+      "note": "2016.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "민경택",
+      "title": "Alumni",
+      "email": "k.min@tukorea.ac.kr",
+      "note": "2015.8 졸업 · 한국공학대 나노반도체공학과 조교수"
+    },
+    {
+      "name": "최세록",
+      "title": "Alumni",
+      "email": "rock516@naver.com",
+      "note": "2014.8 졸업 · 삼성전자 DS부문 IT"
+    },
+    {
+      "name": "이정국",
+      "title": "Alumni",
+      "email": "jeongkug@gmail.com",
+      "note": "2013.8 졸업 · 삼성디스플레이"
+    },
+    {
+      "name": "김시한",
+      "title": "Alumni",
+      "email": "sihan.kim@samsung.com",
+      "note": "2012.8 졸업 · 삼성전자 LED사업팀 수석연구원"
+    },
+    {
+      "name": "안성모",
+      "title": "Alumni",
+      "email": "kkam1233@gmail.com",
+      "note": "2012.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "김동욱",
+      "title": "Alumni",
+      "email": "dong-uk.kim@samsung.com",
+      "note": "2012.2 졸업 · 삼성디스플레이 Microdisplay팀"
+    },
+    {
+      "name": "황경욱",
+      "title": "Alumni",
+      "email": "80hwang@gmail.com",
+      "note": "2011.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "김성환",
+      "title": "Alumni",
+      "email": "skim81@hanyang.ac.kr",
+      "note": "2010.8 졸업 · 한양대 전기생체공학부 교수"
+    },
+    {
+      "name": "이준희",
+      "title": "Alumni",
+      "email": "joonheelee.kr@gmail.com",
+      "note": "2010.2 졸업 · West Virginia Univ. 물리천문학부 교수"
+    },
+    {
+      "name": "임헌종",
+      "title": "Alumni",
+      "email": "limhunjong@naver.com",
+      "note": "2010.2 졸업 · 분당서울대병원 영상의학과"
+    },
+    {
+      "name": "석효준",
+      "title": "Alumni",
+      "email": "hyojunseok@snu.ac.kr",
+      "note": "2009.8 졸업 · 서울대 물리교육과"
+    },
+    {
+      "name": "김재훈",
+      "title": "Alumni",
+      "email": "jhkim2000@google.com",
+      "note": "2009.2 졸업 · 삼성전자 설비연"
+    },
+    {
+      "name": "윤성준",
+      "title": "Alumni",
+      "email": "sungjoon.yoon@sk.com",
+      "note": "2009.2 졸업 · SK hynix"
+    },
+    {
+      "name": "조남기",
+      "title": "Alumni",
+      "email": "jithelas@daum.net",
+      "note": "2008.8 졸업 · 삼성전자 DS부문"
+    },
+    {
+      "name": "최윤경",
+      "title": "Alumni",
+      "email": "light2yk@gmail.com",
+      "note": "2008.8 졸업"
+    },
+    {
+      "name": "우재용",
+      "title": "Alumni",
+      "email": "openwjy@naver.com",
+      "note": "2008.2 졸업 · SK hynix"
+    },
+    {
+      "name": "박연상",
+      "title": "Alumni",
+      "email": "yeonsang.park@cnu.ac.kr",
+      "note": "2007.2 졸업 · 충남대 물리학과 부교수"
+    },
+    {
+      "name": "김동호",
+      "title": "Alumni",
+      "email": "dh526.kim@samsung.com",
+      "note": "2007.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "문지연",
+      "title": "Alumni",
+      "email": "headbing@empal.com",
+      "note": "2007.2 졸업"
+    },
+    {
+      "name": "조치오",
+      "title": "Alumni",
+      "note": "2006.2 졸업"
+    },
+    {
+      "name": "이재숭",
+      "title": "Alumni",
+      "email": "jaesoong.lee@samsung.com",
+      "note": "2006.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "노영근",
+      "title": "Alumni",
+      "email": "roh.younggeun@gmail.com",
+      "note": "2005.2 졸업 · 삼성전자 SAIT 전문연구원"
+    },
+    {
+      "name": "황성모",
+      "title": "Alumni",
+      "email": "smhwang76@yahoo.co.kr",
+      "note": "2005.2 졸업 · LG디스플레이"
+    },
+    {
+      "name": "정재욱",
+      "title": "Alumni",
+      "email": "jjeong@chungbuk.ac.kr",
+      "note": "2005.8 졸업 · 충북대 정보통신공학부"
+    },
+    {
+      "name": "하재흥",
+      "title": "Alumni",
+      "email": "jae11010@korea.com",
+      "note": "2004.2 졸업 · 삼성디스플레이"
+    },
+    {
+      "name": "박시현",
+      "title": "Alumni",
+      "email": "sihyun_park@ynu.ac.kr",
+      "note": "2004.2 졸업 · 영남대 전자공학과 교수"
+    },
+    {
+      "name": "이병철",
+      "title": "Alumni",
+      "email": "beongcheol.lee@sk.com",
+      "note": "2003.2 졸업 · SK hynix"
+    },
+    {
+      "name": "이상연",
+      "title": "Alumni",
+      "note": "2003.2 졸업"
+    },
+    {
+      "name": "박진형",
+      "title": "Alumni",
+      "email": "parnell@naver.com",
+      "note": "2002.2 졸업 · 삼성전자 파운드리"
+    },
+    {
+      "name": "사공탄",
+      "title": "Alumni",
+      "email": "tan.sakong@gmail.com",
+      "note": "2002.2 졸업 · 삼성전자 LED사업팀"
+    },
+    {
+      "name": "김혜진",
+      "title": "Alumni",
+      "note": "2001.2 졸업 · 한국전자통신연구소"
+    },
+    {
+      "name": "최중선",
+      "title": "Alumni",
+      "email": "jschoe@etri.re.kr",
+      "note": "2001.2 졸업 · 한국전자통신연구소"
+    },
+    {
+      "name": "김유식",
+      "title": "Alumni",
+      "email": "physis2000@gmail.com",
+      "note": "2000.2 졸업 · 삼성전자 LED사업팀"
+    }
+  ]
 }
