@@ -1,10 +1,10 @@
-import { getPublications } from '@/lib/data';
+﻿import { getPublications } from "@/lib/data";
 
 type PublicationListType = Awaited<ReturnType<typeof getPublications>>;
 
 function groupByYear(records: PublicationListType) {
   return records.reduce((acc: Record<string, PublicationListType>, pub: PublicationListType[number]) => {
-    const key = pub.year ? String(pub.year) : 'Unsorted';
+    const key = pub.year ? String(pub.year) : "Unsorted";
     if (!acc[key]) acc[key] = [];
     acc[key].push(pub);
     return acc;
@@ -13,15 +13,20 @@ function groupByYear(records: PublicationListType) {
 
 export default async function PublicationsPage() {
   const publications = await getPublications();
+  const displayMap = new Map<number, number>();
+  publications.forEach((pub, idx) => {
+    displayMap.set(pub.id, publications.length - idx);
+  });
+
   const grouped = groupByYear(publications);
-  const numericYears = Object.keys(grouped).filter((key) => key !== 'Unsorted');
+  const numericYears = Object.keys(grouped).filter((key) => key !== "Unsorted");
   const years = numericYears
     .map((year) => Number(year))
     .filter((year) => !Number.isNaN(year))
     .sort((a, b) => b - a)
     .map((year) => String(year));
-  if (grouped['Unsorted']) {
-    years.push('Unsorted');
+  if (grouped["Unsorted"]) {
+    years.push("Unsorted");
   }
 
   return (
@@ -34,36 +39,39 @@ export default async function PublicationsPage() {
 
       {years.map((yearKey) => (
         <div key={yearKey} className="space-y-4">
-          <h2 className="text-2xl font-semibold">{yearKey === 'Unsorted' ? 'Unsorted' : yearKey}</h2>
+          <h2 className="text-2xl font-semibold">{yearKey === "Unsorted" ? "Unsorted" : yearKey}</h2>
           <div className="space-y-4">
-            {grouped[yearKey]?.map((pub: PublicationListType[number]) => (
-              <article key={pub.id} className="rounded-2xl border p-5">
-                {pub.type && <p className="text-xs uppercase tracking-wide text-gray-500">{pub.type}</p>}
-                <h3 className="mt-2 text-lg font-semibold text-gray-900">
-                  <span className="mr-2 text-sm font-medium text-gray-500">#{pub.id}</span>
-                  {pub.title}
-                </h3>
-                {pub.authors.length > 0 && <p className="text-sm text-gray-600">{pub.authors.join(', ')}</p>}
-                {pub.venue && <p className="text-sm text-gray-600 italic">{pub.venue}</p>}
-                {pub.citation && <p className="text-xs text-gray-500">{pub.citation}</p>}
-                {pub.summary && <p className="mt-2 text-sm text-gray-600">{pub.summary}</p>}
-                <div className="mt-2 text-sm">
-                  {(() => {
-                    const href = pub.doi
-                      ? pub.doi.startsWith('http')
-                        ? pub.doi
-                        : `https://doi.org/${pub.doi}`
-                      : pub.link;
-                    if (!href) return null;
-                    return (
-                      <a href={href} className="text-indigo-600 hover:underline">
-                        View detail
-                      </a>
-                    );
-                  })()}
-                </div>
-              </article>
-            ))}
+            {grouped[yearKey]?.map((pub: PublicationListType[number]) => {
+              const displayNumber = displayMap.get(pub.id) ?? pub.id;
+              return (
+                <article key={pub.id} className="rounded-2xl border p-5">
+                  {pub.type && <p className="text-xs uppercase tracking-wide text-gray-500">{pub.type}</p>}
+                  <h3 className="mt-2 text-lg font-semibold text-gray-900">
+                    <span className="mr-2 text-sm font-medium text-gray-500">#{displayNumber}</span>
+                    {pub.title}
+                  </h3>
+                  {pub.authors.length > 0 && <p className="text-sm text-gray-600">{pub.authors.join(', ')}</p>}
+                  {pub.venue && <p className="text-sm text-gray-600 italic">{pub.venue}</p>}
+                  {pub.citation && <p className="text-xs text-gray-500">{pub.citation}</p>}
+                  {pub.summary && <p className="mt-2 text-sm text-gray-600">{pub.summary}</p>}
+                  <div className="mt-2 text-sm">
+                    {(() => {
+                      const href = pub.doi
+                        ? pub.doi.startsWith("http")
+                          ? pub.doi
+                          : `https://doi.org/${pub.doi}`
+                        : pub.link;
+                      if (!href) return null;
+                      return (
+                        <a href={href} className="text-indigo-600 hover:underline">
+                          View detail
+                        </a>
+                      );
+                    })()}
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       ))}
