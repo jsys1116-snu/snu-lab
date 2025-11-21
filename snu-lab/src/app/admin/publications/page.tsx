@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { type Publication } from "@/lib/types";
 
 type FormState = {
   id?: number;
