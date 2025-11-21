@@ -1,11 +1,11 @@
-{
+﻿{
   "faculty": [
     {
-      "name": "Heonsu Jeon (전헌수)",
+      "name": "Heonsu Jeon (?꾪뿄??",
       "title": "Professor, Department of Physics & Astronomy",
       "currentAffiliation": "Department of Physics & Astronomy, Seoul National University",
       "email": "hsjeon@snu.ac.kr",
-      "image": "/images/전헌수.jpg",
+      "image": "/images/?꾪뿄??jpg",
       "office": "Rm. 56-334",
       "address": "Department of Physics & Astronomy, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea",
       "phone": "+82-2-880-6265",
@@ -40,13 +40,13 @@
   ],
   "postdocs": [
     {
-      "name": "Tae-Yun Lee (이태윤)",
+      "name": "Tae-Yun Lee (?댄깭??",
       "title": "Postdoctoral Researcher",
       "email": "aaaaa@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Myeongeun Kim (김명은)",
+      "name": "Myeongeun Kim (源紐낆?)",
       "title": "Postdoctoral Researcher",
       "email": "jungdab1879@snu.ac.kr",
       "note": ""
@@ -54,42 +54,42 @@
   ],
   "phd": [
     {
-      "name": "Hansol Lee (이한솔)",
+      "name": "Hansol Lee (?댄븳??",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "neptuns@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Lak-Jong Jeong (정락종)",
+      "name": "Lak-Jong Jeong (?뺣씫醫?",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "jlj9141@naver.com",
       "note": ""
     },
     {
-      "name": "Seung Hwan Sin (신승환)",
+      "name": "Seung Hwan Sin (?좎듅??",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "paulcin@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Heesoo Jin (진희수)",
+      "name": "Heesoo Jin (吏꾪씗??",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "rapaeljin@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Taehyok Kim (김태혁)",
+      "name": "Kim Taehyeok(김태혁)",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "gimth95@snu.ac.kr",
       "note": ""
     },
     {
-      "name": "Ye-Seong Song (송예성)",
+      "name": "Ye-Seong Song (?≪삁??",
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "jsys1116@snu.ac.kr",
@@ -100,259 +100,264 @@
   "staff": [],
   "alumni": [
     {
-      "name": "김명은",
+      "name": "源紐낆?",
       "title": "Alumni",
       "email": "jungdab1879@snu.ac.kr",
-      "note": "2025.2 졸업 · 서울대 물리천문학부 포닥"
+      "note": "2025.2 議몄뾽 쨌 ?쒖슱? 臾쇰━泥쒕Ц?숇? ?щ떏"
     },
     {
-      "name": "이태윤",
+      "name": "?댄깭??,
       "title": "Alumni",
       "email": "aaaaa@snu.ac.kr",
-      "note": "2023.2 졸업 · 서울대 물리천문학부 포닥"
+      "note": "2023.2 議몄뾽 쨌 ?쒖슱? 臾쇰━泥쒕Ц?숇? ?щ떏"
     },
     {
-      "name": "강민수",
+      "name": "媛뺣???,
       "title": "Alumni",
       "email": "mskang4152@naver.com",
-      "note": "2021.3 졸업 · 삼성전자 반도체연"
+      "note": "2021.3 議몄뾽 쨌 ?쇱꽦?꾩옄 諛섎룄泥댁뿰"
     },
     {
-      "name": "한창현",
+      "name": "?쒖갹??,
       "title": "Alumni",
       "email": "divarer@naver.com",
-      "note": "2020.8 졸업 · SK hynix (TL)"
+      "note": "2020.8 議몄뾽 쨌 SK hynix (TL)"
     },
     {
-      "name": "정현호",
+      "name": "?뺥쁽??,
       "title": "Alumni",
       "email": "faerie87@snu.ac.kr",
-      "note": "2018.8 졸업 · 삼성디스플레이"
+      "note": "2018.8 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅??
     },
     {
-      "name": "이명재",
+      "name": "?대챸??,
       "title": "Alumni",
       "email": "myungjae@snu.ac.kr",
-      "note": "2018.2 졸업 · 서울대 재료공학부 조교수"
+      "note": "2018.2 議몄뾽 쨌 ?쒖슱? ?щ즺怨듯븰遺 議곌탳??
     },
     {
-      "name": "김한빛",
+      "name": "源?쒕튆",
       "title": "Alumni",
       "email": "sambitee@gmail.com",
-      "note": "2018.2 졸업 · 삼성디스플레이"
+      "note": "2018.2 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅??
     },
     {
-      "name": "이종호",
+      "name": "?댁쥌??,
       "title": "Alumni",
       "email": "jongho75.lee@gmail.com",
-      "note": "2018.2 졸업 · 삼성전자 LED사업팀"
+      "note": "2018.2 議몄뾽 쨌 ?쇱꽦?꾩옄 LED?ъ뾽?"
     },
     {
-      "name": "차형래",
+      "name": "李⑦삎??,
       "title": "Alumni",
       "email": "hyungrae82@hotmail.com",
-      "note": "2016.2 졸업 · 삼성디스플레이 연구원"
+      "note": "2016.2 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅???곌뎄??
     },
     {
-      "name": "장호준",
+      "name": "?ν샇以",
       "title": "Alumni",
       "email": "hojun.chang@samsung.com",
-      "note": "2016.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2016.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "민경택",
+      "name": "誘쇨꼍??,
       "title": "Alumni",
       "email": "k.min@tukorea.ac.kr",
-      "note": "2015.8 졸업 · 한국공학대 나노반도체공학과 조교수"
+      "note": "2015.8 議몄뾽 쨌 ?쒓뎅怨듯븰? ?섎끂諛섎룄泥닿났?숆낵 議곌탳??
     },
     {
-      "name": "최세록",
+      "name": "理쒖꽭濡?,
       "title": "Alumni",
       "email": "rock516@naver.com",
-      "note": "2014.8 졸업 · 삼성전자 DS부문 IT"
+      "note": "2014.8 議몄뾽 쨌 ?쇱꽦?꾩옄 DS遺臾?IT"
     },
     {
-      "name": "이정국",
+      "name": "?댁젙援?,
       "title": "Alumni",
       "email": "jeongkug@gmail.com",
-      "note": "2013.8 졸업 · 삼성디스플레이"
+      "note": "2013.8 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅??
     },
     {
-      "name": "김시한",
+      "name": "源?쒗븳",
       "title": "Alumni",
       "email": "sihan.kim@samsung.com",
-      "note": "2012.8 졸업 · 삼성전자 LED사업팀 수석연구원"
+      "note": "2012.8 議몄뾽 쨌 ?쇱꽦?꾩옄 LED?ъ뾽? ?섏꽍?곌뎄??
     },
     {
-      "name": "안성모",
+      "name": "?덉꽦紐?,
       "title": "Alumni",
       "email": "kkam1233@gmail.com",
-      "note": "2012.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2012.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "김동욱",
+      "name": "源?숈슧",
       "title": "Alumni",
       "email": "dong-uk.kim@samsung.com",
-      "note": "2012.2 졸업 · 삼성디스플레이 Microdisplay팀"
+      "note": "2012.2 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅??Microdisplay?"
     },
     {
-      "name": "황경욱",
+      "name": "?⑷꼍??,
       "title": "Alumni",
       "email": "80hwang@gmail.com",
-      "note": "2011.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2011.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "김성환",
+      "name": "源?깊솚",
       "title": "Alumni",
       "email": "skim81@hanyang.ac.kr",
-      "note": "2010.8 졸업 · 한양대 전기생체공학부 교수"
+      "note": "2010.8 議몄뾽 쨌 ?쒖뼇? ?꾧린?앹껜怨듯븰遺 援먯닔"
     },
     {
-      "name": "이준희",
+      "name": "?댁???,
       "title": "Alumni",
       "email": "joonheelee.kr@gmail.com",
-      "note": "2010.2 졸업 · West Virginia Univ. 물리천문학부 교수"
+      "note": "2010.2 議몄뾽 쨌 West Virginia Univ. 臾쇰━泥쒕Ц?숇? 援먯닔"
     },
     {
-      "name": "임헌종",
+      "name": "?꾪뿄醫?,
       "title": "Alumni",
       "email": "limhunjong@naver.com",
-      "note": "2010.2 졸업 · 분당서울대병원 영상의학과"
+      "note": "2010.2 議몄뾽 쨌 遺꾨떦?쒖슱?蹂묒썝 ?곸긽?섑븰怨?
     },
     {
-      "name": "석효준",
+      "name": "?앺슚以",
       "title": "Alumni",
       "email": "hyojunseok@snu.ac.kr",
-      "note": "2009.8 졸업 · 서울대 물리교육과"
+      "note": "2009.8 議몄뾽 쨌 ?쒖슱? 臾쇰━援먯쑁怨?
     },
     {
-      "name": "김재훈",
+      "name": "源?ы썕",
       "title": "Alumni",
       "email": "jhkim2000@google.com",
-      "note": "2009.2 졸업 · 삼성전자 설비연"
+      "note": "2009.2 議몄뾽 쨌 ?쇱꽦?꾩옄 ?ㅻ퉬??
     },
     {
-      "name": "윤성준",
+      "name": "?ㅼ꽦以",
       "title": "Alumni",
       "email": "sungjoon.yoon@sk.com",
-      "note": "2009.2 졸업 · SK hynix"
+      "note": "2009.2 議몄뾽 쨌 SK hynix"
     },
     {
-      "name": "조남기",
+      "name": "議곕궓湲?,
       "title": "Alumni",
       "email": "jithelas@daum.net",
-      "note": "2008.8 졸업 · 삼성전자 DS부문"
+      "note": "2008.8 議몄뾽 쨌 ?쇱꽦?꾩옄 DS遺臾?
     },
     {
-      "name": "최윤경",
+      "name": "理쒖쑄寃?,
       "title": "Alumni",
       "email": "light2yk@gmail.com",
-      "note": "2008.8 졸업"
+      "note": "2008.8 議몄뾽"
     },
     {
-      "name": "우재용",
+      "name": "?곗옱??,
       "title": "Alumni",
       "email": "openwjy@naver.com",
-      "note": "2008.2 졸업 · SK hynix"
+      "note": "2008.2 議몄뾽 쨌 SK hynix"
     },
     {
-      "name": "박연상",
+      "name": "諛뺤뿰??,
       "title": "Alumni",
       "email": "yeonsang.park@cnu.ac.kr",
-      "note": "2007.2 졸업 · 충남대 물리학과 부교수"
+      "note": "2007.2 議몄뾽 쨌 異⑸궓? 臾쇰━?숆낵 遺援먯닔"
     },
     {
-      "name": "김동호",
+      "name": "源?숉샇",
       "title": "Alumni",
       "email": "dh526.kim@samsung.com",
-      "note": "2007.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2007.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "문지연",
+      "name": "臾몄???,
       "title": "Alumni",
       "email": "headbing@empal.com",
-      "note": "2007.2 졸업"
+      "note": "2007.2 議몄뾽"
     },
     {
-      "name": "조치오",
+      "name": "議곗튂??,
       "title": "Alumni",
-      "note": "2006.2 졸업"
+      "note": "2006.2 議몄뾽"
     },
     {
-      "name": "이재숭",
+      "name": "?댁옱??,
       "title": "Alumni",
       "email": "jaesoong.lee@samsung.com",
-      "note": "2006.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2006.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "노영근",
+      "name": "?몄쁺洹?,
       "title": "Alumni",
       "email": "roh.younggeun@gmail.com",
-      "note": "2005.2 졸업 · 삼성전자 SAIT 전문연구원"
+      "note": "2005.2 議몄뾽 쨌 ?쇱꽦?꾩옄 SAIT ?꾨Ц?곌뎄??
     },
     {
-      "name": "황성모",
+      "name": "?⑹꽦紐?,
       "title": "Alumni",
       "email": "smhwang76@yahoo.co.kr",
-      "note": "2005.2 졸업 · LG디스플레이"
+      "note": "2005.2 議몄뾽 쨌 LG?붿뒪?뚮젅??
     },
     {
-      "name": "정재욱",
+      "name": "?뺤옱??,
       "title": "Alumni",
       "email": "jjeong@chungbuk.ac.kr",
-      "note": "2005.8 졸업 · 충북대 정보통신공학부"
+      "note": "2005.8 議몄뾽 쨌 異⑸턿? ?뺣낫?듭떊怨듯븰遺"
     },
     {
-      "name": "하재흥",
+      "name": "?섏옱??,
       "title": "Alumni",
       "email": "jae11010@korea.com",
-      "note": "2004.2 졸업 · 삼성디스플레이"
+      "note": "2004.2 議몄뾽 쨌 ?쇱꽦?붿뒪?뚮젅??
     },
     {
-      "name": "박시현",
+      "name": "諛뺤떆??,
       "title": "Alumni",
       "email": "sihyun_park@ynu.ac.kr",
-      "note": "2004.2 졸업 · 영남대 전자공학과 교수"
+      "note": "2004.2 議몄뾽 쨌 ?곷궓? ?꾩옄怨듯븰怨?援먯닔"
     },
     {
-      "name": "이병철",
+      "name": "?대퀝泥?,
       "title": "Alumni",
       "email": "beongcheol.lee@sk.com",
-      "note": "2003.2 졸업 · SK hynix"
+      "note": "2003.2 議몄뾽 쨌 SK hynix"
     },
     {
-      "name": "이상연",
+      "name": "?댁긽??,
       "title": "Alumni",
-      "note": "2003.2 졸업"
+      "note": "2003.2 議몄뾽"
     },
     {
-      "name": "박진형",
+      "name": "諛뺤쭊??,
       "title": "Alumni",
       "email": "parnell@naver.com",
-      "note": "2002.2 졸업 · 삼성전자 파운드리"
+      "note": "2002.2 議몄뾽 쨌 ?쇱꽦?꾩옄 ?뚯슫?쒕━"
     },
     {
-      "name": "사공탄",
+      "name": "?ш났??,
       "title": "Alumni",
       "email": "tan.sakong@gmail.com",
-      "note": "2002.2 졸업 · 삼성전자 LED사업팀"
+      "note": "2002.2 議몄뾽 쨌 ?쇱꽦?꾩옄 LED?ъ뾽?"
     },
     {
-      "name": "김혜진",
+      "name": "源?쒖쭊",
       "title": "Alumni",
-      "note": "2001.2 졸업 · 한국전자통신연구소"
+      "note": "2001.2 議몄뾽 쨌 ?쒓뎅?꾩옄?듭떊?곌뎄??
     },
     {
-      "name": "최중선",
+      "name": "理쒖쨷??,
       "title": "Alumni",
       "email": "jschoe@etri.re.kr",
-      "note": "2001.2 졸업 · 한국전자통신연구소"
+      "note": "2001.2 議몄뾽 쨌 ?쒓뎅?꾩옄?듭떊?곌뎄??
     },
     {
-      "name": "김유식",
+      "name": "源?좎떇",
       "title": "Alumni",
       "email": "physis2000@gmail.com",
-      "note": "2000.2 졸업 · 삼성전자 LED사업팀"
+      "note": "2000.2 議몄뾽 쨌 ?쇱꽦?꾩옄 LED?ъ뾽?"
     }
   ]
 }
+
+
+
+
+
