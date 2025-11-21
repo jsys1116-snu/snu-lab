@@ -1,25 +1,29 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from "next/server";
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === "production";
 
 export async function POST(request: Request) {
   const { password } = await request.json().catch(() => ({}));
-  const expected = process.env.ADMIN_TOKEN || '';
+  const expected = (process.env.ADMIN_TOKEN || "").trim();
 
   if (!password) {
-    return NextResponse.json({ error: 'Password required' }, { status: 400 });
+    return NextResponse.json({ error: "Password required" }, { status: 400 });
   }
 
-  if (!expected || password !== expected) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  if (!expected) {
+    return NextResponse.json({ error: "ADMIN_TOKEN not configured" }, { status: 500 });
+  }
+
+  if (password !== expected) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const res = NextResponse.json({ ok: true }, { status: 200 });
-  res.cookies.set('admin_token', expected, {
+  res.cookies.set("admin_token", expected, {
     httpOnly: true,
-    sameSite: 'lax',
+    sameSite: "lax",
     secure: isProd,
-    path: '/',
+    path: "/",
     maxAge: 60 * 30 // 30분 세션
   });
   return res;
