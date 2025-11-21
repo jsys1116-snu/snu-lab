@@ -2,7 +2,21 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { type Publication } from "@/lib/types";
+
+type Publication = {
+  id: number;
+  title: string;
+  authors: string[];
+  venue?: string | null;
+  year?: number | null;
+  type?: string | null;
+  doi?: string | null;
+  link?: string | null;
+  volume?: string | null;
+  issue?: string | null;
+  pages?: string | null;
+  summary?: string | null;
+};
 
 type FormState = {
   id?: number;
@@ -343,3 +357,4 @@ export default function AdminPublicationsPage() {
     </section>
   );
 }
+
