@@ -48,13 +48,13 @@ export default async function Home() {
       <div className="rounded-2xl border p-6">
         <h2 className="text-2xl font-semibold text-gray-900">Laboratory Introduction</h2>
         <p className="mt-4 text-lg leading-relaxed text-gray-800">
-          μNOEL, the name of our research group, stands for Micro and Nano Opto-Electronics Laboratory. We pursue
-          research on photons, electrons, and their interactions in artificial micro- and nano-scale photonic structures
-          such as quantum wells, quantum dots, microcavities, and photonic crystals. Micro- and nano-structures provide
-          scientifically rich scenarios where the physical properties of electrons and photons can be uniquely
-          manipulated beyond naturally occurring systems. Our goal is to engineer these special circumstances via
-          micro- and nano-fabrication techniques and to explore both the fundamental physics and device applications of
-          newly developed concepts.
+          μNOEL, the name of our research group, stands for the Micro and Nano Opto-Electronics Laboratory. We study
+          photons, electrons, and their interactions within engineered micro- and nanoscale photonic
+          structures—including quantum wells, quantum dots, microcavities, microwaveguides, and nanophotonic structures
+          based on photonic crystals. These structures offer scientifically rich platforms where the behaviors of
+          electrons and photons can be tailored in ways not possible in natural systems. Our mission is to create such
+          engineered environments through advanced micro- and nanofabrication techniques, and to investigate both the
+          fundamental physics they reveal and the novel device applications they enable.
         </p>
         <Link href="/research" className="mt-4 inline-flex text-sm font-semibold text-indigo-600">
           Detailed research overview →
