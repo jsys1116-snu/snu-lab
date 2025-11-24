@@ -21,15 +21,9 @@ export default async function Home() {
   return (
     <section className="space-y-10">
       <div className="rounded-2xl border bg-gradient-to-r from-slate-900 to-indigo-900 p-10 text-white">
-        <p className="text-sm uppercase tracking-wide text-slate-300">μNOEL · Seoul National University</p>
-        <h1 className="mt-2 text-4xl font-semibold">Micro &amp; Nano Opto-Electronics Lab</h1>
-        <p className="mt-4 max-w-3xl text-lg text-slate-200">
-          The Micro &amp; Nano Opto-Electronics Laboratory (μNOEL) explores light-matter interactions in engineered
-          micro- and nanoscale structures. By studying and designing photonic crystals, nanocavities, and advanced
-          optoelectronic platforms, we aim to realize highly efficient light-emitting, light-managing, and laser devices
-          for next-generation photonics.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
+        <p className="text-3xl font-semibold tracking-wide text-slate-200">μNOEL · Seoul National University</p>
+        <h1 className="mt-3 text-6xl font-semibold leading-tight">Micro &amp; Nano Opto-Electronics Lab</h1>
+        <div className="mt-8 flex flex-wrap gap-3">
           <Link
             href="/people"
             className="rounded-full border border-white/60 px-4 py-2 text-sm font-medium text-white hover:bg-white/10"
@@ -46,7 +40,7 @@ export default async function Home() {
       </div>
 
       <div className="rounded-2xl border p-6">
-        <h2 className="text-2xl font-semibold text-gray-900">Laboratory Introduction</h2>
+        <h2 className="text-3xl font-semibold text-gray-900">Introduction to μNOEL</h2>
         <p className="mt-4 text-lg leading-relaxed text-gray-800">
           μNOEL, the name of our research group, stands for the Micro and Nano Opto-Electronics Laboratory. We study
           photons, electrons, and their interactions within engineered micro- and nanoscale photonic
@@ -62,7 +56,7 @@ export default async function Home() {
       </div>
 
       <div className="rounded-2xl border p-6">
-        <h2 className="text-xl font-semibold">Recent publications</h2>
+        <h2 className="text-3xl font-semibold text-gray-900">Recent publications</h2>
         <p className="mt-1 text-sm text-gray-600">주요 논문과 컨퍼런스 실적을 빠르게 살펴보세요.</p>
         <div className="mt-4 space-y-4">
           {highlightedPublications.map((pub) => (
@@ -81,7 +75,7 @@ export default async function Home() {
       </div>
 
       <div className="rounded-2xl border p-6">
-        <h2 className="text-xl font-semibold">People</h2>
+        <h2 className="text-3xl font-semibold text-gray-900">People</h2>
         <p className="mt-1 text-sm text-gray-600">Micro &amp; Nano Opto-Electronics Lab 구성원을 살펴보세요.</p>
         <div className="mt-4 grid gap-4 md:grid-cols-2">
           {highlightedPeople.map((person: PeopleEntry) => (
@@ -101,7 +95,7 @@ export default async function Home() {
       </div>
 
       <div className="rounded-2xl border p-6">
-        <h2 className="text-xl font-semibold">Latest news</h2>
+        <h2 className="text-3xl font-semibold text-gray-900">Latest news</h2>
         {latestNews ? (
           <div className="mt-4 space-y-1 text-sm">
             <p className="text-xs uppercase tracking-wide text-gray-500">

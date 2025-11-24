@@ -6,12 +6,14 @@ type PersonEntry = Person;
 
 const sections: Array<{ key: SectionKey; title: string; subtitle?: string }> = [
   { key: 'faculty', title: 'Professor' },
-  { key: 'postdocs', title: 'Postdoctoral Researchers', subtitle: '포스트닥' },
+  { key: 'postdocs', title: 'Postdoctoral Researchers', subtitle: '포스트다크' },
   { key: 'phd', title: 'Ph.D. Course', subtitle: '박사과정' },
   { key: 'masters', title: 'M.S. Course', subtitle: '석사과정' },
   { key: 'staff', title: 'Staff & Secretary', subtitle: '행정·연구지원' },
   { key: 'alumni', title: 'Alumni', subtitle: '동문' }
 ];
+
+
 
 export default async function PeoplePage() {
   const people = await getPeople();
@@ -31,6 +33,22 @@ export default async function PeoplePage() {
         const isAlumniSection = section.key === 'alumni';
         const isFacultySection = section.key === 'faculty';
 
+        const parseGraduation = (note?: string) => {
+          if (!note) return { year: -Infinity, month: 0 };
+          const match = note.match(/(\d{4})\.(\d{1,2})/);
+          if (!match) return { year: -Infinity, month: 0 };
+          return { year: Number(match[1]), month: Number(match[2]) };
+        };
+
+        const sortedEntries = isAlumniSection
+          ? [...entries].sort((a, b) => {
+              const da = parseGraduation(a.note);
+              const db = parseGraduation(b.note);
+              if (db.year !== da.year) return db.year - da.year;
+              return db.month - da.month;
+            })
+          : entries;
+
         return (
           <div key={String(section.key)} className="space-y-4">
             <div>
@@ -38,14 +56,26 @@ export default async function PeoplePage() {
               {section.subtitle && <p className="text-sm text-gray-500">{section.subtitle}</p>}
             </div>
             <div className="grid gap-4 md:grid-cols-2">
-              {entries.map((person: PersonEntry) => {
-                const displayTitle = isPhdSection ? 'Ph.D. Candidate' : isAlumniSection ? undefined : person.title;
+              {sortedEntries.map((person: PersonEntry, index: number) => {
+                const displayTitle = isPhdSection
+                  ? 'Ph.D. Candidate'
+                  : isAlumniSection
+                    ? [person.title, person.degree].filter(Boolean).join(' · ')
+                    : person.title;
                 const displayProgram = isPhdSection || isAlumniSection ? undefined : person.program;
+                const buildKey = (entry: PersonEntry, idx: number) => {
+                  const emailKey = entry.email?.trim();
+                  if (emailKey) return emailKey;
+                  const nameKey = entry.name?.trim();
+                  if (nameKey) return `${nameKey}-${idx}`;
+                  return `${section.key}-${idx}`;
+                };
+                const itemKey = buildKey(person, index);
 
                 if (isFacultySection) {
                   return (
                     <article
-                      key={person.email ?? person.name}
+                      key={itemKey}
                       className="md:col-span-2 flex flex-col gap-6 rounded-2xl border p-6 md:flex-row"
                     >
                       {person.image && (
@@ -126,7 +156,7 @@ export default async function PeoplePage() {
                 }
 
                 return (
-                  <article key={person.email ?? person.name} className="rounded-2xl border p-5">
+                  <article key={itemKey} className="rounded-2xl border p-5">
                     <div className="flex flex-col gap-1">
                       <p className="text-lg font-semibold text-gray-900">{person.name}</p>
                       {displayTitle && <p className="text-sm text-gray-600">{displayTitle}</p>}

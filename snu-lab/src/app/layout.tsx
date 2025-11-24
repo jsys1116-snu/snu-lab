@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "μNOEL · SNU Photonics Lab",
-  description: "Moiré Nano-Optics & Electronics Laboratory (μNOEL) at Seoul National University"
+  title: "μNOEL",
+  description: "Micro & Nano Opto-Electronics Laboratory (μNOEL)",
 };
 
 const navItems = [
@@ -50,10 +50,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div className="space-y-2">
               <p className="font-semibold text-gray-900">Micro &amp; Nano Opto-Electronics Lab (μNOEL)</p>
               <p>
-                Department of Physics &amp; Astronomy, Seoul National University · 56-323, 1 Gwanak-ro,
+                Department of Physics &amp; Astronomy, Seoul National University · 1 Gwanak-ro,
                 Gwanak-gu, Seoul 08826, Korea
               </p>
-              <p>Tel. +82-2-880-6265 · Fax +82-2-874-3936</p>
+              <p>Tel. +82-2-880-6265</p>
               <p>© {new Date().getFullYear()} Micro &amp; Nano Opto-Electronics Lab · Seoul National University</p>
             </div>
           </div>

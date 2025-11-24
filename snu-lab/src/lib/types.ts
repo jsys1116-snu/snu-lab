@@ -1,6 +1,7 @@
 export interface Person {
   name: string;
   title: string;
+  degree?: string;
   email?: string;
   website?: string;
   interests?: string[];
