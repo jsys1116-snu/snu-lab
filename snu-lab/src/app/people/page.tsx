@@ -4,9 +4,6 @@ import type { PeopleData, Person } from '@/lib/types';
 type SectionKey = keyof PeopleData;
 type PersonEntry = Person;
 
-const unmaskEmail = (email?: string) =>
-  email ? email.replace(/\s*\[at\]\s*/gi, '@').replace(/\s*\[dot\]\s*/gi, '.') : '';
-
 const sections: Array<{ key: SectionKey; title: string; subtitle?: string }> = [
   { key: 'faculty', title: 'Professor' },
   { key: 'postdocs', title: 'Postdoctoral Researchers', subtitle: '포스트다크' },
@@ -113,12 +110,7 @@ export default async function PeoplePage() {
                           {person.email && (
                             <p>
                               Email:{' '}
-                              <a
-                                href={`mailto:${unmaskEmail(person.email)}`}
-                                className="text-blue-600 underline-offset-4 hover:underline"
-                              >
-                                {unmaskEmail(person.email)}
-                              </a>
+                              <span className="font-mono text-gray-700">{person.email}</span>
                             </p>
                           )}
                         </div>
@@ -174,9 +166,7 @@ export default async function PeoplePage() {
                       <div className="mt-2 text-xs text-gray-500">
                         {person.email && (
                           <span className="mr-3">
-                            <a href={`mailto:${unmaskEmail(person.email)}`} className="hover:underline">
-                              {unmaskEmail(person.email)}
-                            </a>
+                            <span className="font-mono text-gray-700">{person.email}</span>
                           </span>
                         )}
                       </div>
