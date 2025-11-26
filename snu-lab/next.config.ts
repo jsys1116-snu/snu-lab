@@ -39,6 +39,7 @@ const nextConfig: NextConfig = {
       }
     ];
   },
+  poweredByHeader: false,
   turbopack: {
     root: __dirname
   }

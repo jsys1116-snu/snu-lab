@@ -40,7 +40,7 @@ export default function AdminLoginPage() {
       <div className="space-y-3 rounded-2xl border p-6 shadow-sm">
         <h1 className="text-2xl font-semibold text-gray-900">Admin Login</h1>
         <p className="text-sm text-gray-600">입력한 비밀번호가 맞으면 관리자 페이지로 이동합니다.</p>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4" autoComplete="off">
           <div className="space-y-2">
             <label className="block text-sm font-medium">Admin Password</label>
             <input
@@ -48,6 +48,7 @@ export default function AdminLoginPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full rounded border px-3 py-2"
+              autoComplete="off"
               required
             />
           </div>
