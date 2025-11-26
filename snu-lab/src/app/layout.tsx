@@ -30,13 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 {item.label}
               </Link>
             ))}
-            <Link
-              href="/admin/login"
-              className="ml-auto text-xs text-gray-300 transition hover:text-gray-500"
-              aria-label="Admin"
-            >
-              Admin
-            </Link>
+            <span className="ml-auto" />
           </nav>
         </header>
 

@@ -1,41 +1,13 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const PROTECTED_PREFIXES = ["/admin", "/api/admin"];
-const BASIC_USER = process.env.ADMIN_BASIC_USER;
-const BASIC_PASS = process.env.ADMIN_BASIC_PASS;
-
-const unauthorized = () =>
-  new NextResponse("Unauthorized", {
-    status: 401,
-    headers: { "WWW-Authenticate": 'Basic realm="Restricted"' },
-  });
-
-const enforceBasicAuth = (req: NextRequest) => {
-  if (!BASIC_USER || !BASIC_PASS) return null;
-  const authHeader = req.headers.get("authorization");
-  if (!authHeader?.startsWith("Basic ")) {
-    return unauthorized();
-  }
-  const base64 = authHeader.replace("Basic ", "").trim();
-  try {
-    const decoded = atob(base64);
-    const separatorIndex = decoded.indexOf(":");
-    const user = decoded.slice(0, separatorIndex);
-    const pass = decoded.slice(separatorIndex + 1);
-    if (user === BASIC_USER && pass === BASIC_PASS) {
-      return null;
-    }
-    return unauthorized();
-  } catch {
-    return unauthorized();
-  }
-};
+const ADMIN_BASE = "/admin";
+const PROTECTED_PREFIXES = [ADMIN_BASE, "/api/admin"];
 
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Allow login API itself (otherwise POST /api/admin/auth would be redirected)
+  // Allow login API itself (otherwise POST /api/admin/auth would be blocked)
   if (pathname.startsWith("/api/admin/auth")) {
     return NextResponse.next();
   }
@@ -45,13 +17,8 @@ export function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  const basicAuthResponse = enforceBasicAuth(req);
-  if (basicAuthResponse) {
-    return basicAuthResponse;
-  }
-
-  // Allow login page
-  if (pathname === "/admin/login") {
+  // Allow login page (kept at /admin/login)
+  if (pathname === `${ADMIN_BASE}/login`) {
     return NextResponse.next();
   }
 
@@ -62,12 +29,10 @@ export function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  const loginUrl = req.nextUrl.clone();
-  loginUrl.pathname = "/admin/login";
-  loginUrl.searchParams.set("redirect", pathname);
-  return NextResponse.redirect(loginUrl);
+  // Hide admin surface from unauthenticated users
+  return new NextResponse("Not Found", { status: 404 });
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/api/admin/:path*"]
+  matcher: [`${ADMIN_BASE}/:path*`, "/api/admin/:path*"],
 };
