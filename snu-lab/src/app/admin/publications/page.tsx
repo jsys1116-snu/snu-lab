@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -58,10 +58,23 @@ export default function AdminPublicationsPage() {
   const [list, setList] = useState<Publication[]>([]);
   const [fetchError, setFetchError] = useState<string | null>(null);
 
+  const loadList = async () => {
+    setFetchError(null);
+    try {
+      const res = await fetch("/api/admin/publications");
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Failed to load");
+      setList(data.publications ?? []);
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : "Failed to load";
+      setFetchError(msg);
+    }
+  };
+
   useEffect(() => {
     const verify = async () => {
       try {
-        const res = await fetch("/api/admin/auth/check", { method: "GET" });
+        const res = await fetch("/api/admin/auth/check", { method: "GET", credentials: "include" });
         if (!res.ok) {
           router.push("/admin/login");
           return;
@@ -81,19 +94,6 @@ export default function AdminPublicationsPage() {
       loadList();
     }
   }, [checking]);
-
-  const loadList = async () => {
-    setFetchError(null);
-    try {
-      const res = await fetch("/api/admin/publications");
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "불러오기에 실패했습니다.");
-      setList(data.publications ?? []);
-    } catch (err) {
-      const msg = err instanceof Error ? err.message : "불러오기에 실패했습니다.";
-      setFetchError(msg);
-    }
-  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -162,15 +162,15 @@ export default function AdminPublicationsPage() {
 
   const handleDelete = async (id: number, displayNumber?: number) => {
     const label = displayNumber ?? id;
-    if (!confirm(`정말 #${label} 을(를) 삭제할까요?`)) return;
+    if (!confirm(`Delete #${label}?`)) return;
     try {
       const res = await fetch(`/api/admin/publications/${id}`, { method: "DELETE" });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "삭제에 실패했습니다.");
+      if (!res.ok) throw new Error(data.error || "Failed to delete.");
       setMessage(`Deleted #${label}`);
       loadList();
     } catch (err) {
-      const msg = err instanceof Error ? err.message : "삭제에 실패했습니다.";
+      const msg = err instanceof Error ? err.message : "Failed to delete.";
       setError(msg);
     }
   };
@@ -178,11 +178,11 @@ export default function AdminPublicationsPage() {
   const handleLogout = async () => {
     setLogoutError(null);
     try {
-      const res = await fetch("/api/admin/logout", { method: "POST" });
-      if (!res.ok) throw new Error("로그아웃에 실패했습니다.");
+      const res = await fetch("/api/admin/logout", { method: "POST", credentials: "include" });
+      if (!res.ok) throw new Error("Logout failed.");
       window.location.href = "/admin/login";
     } catch (err) {
-      const msg = err instanceof Error ? err.message : "로그아웃에 실패했습니다.";
+      const msg = err instanceof Error ? err.message : "Logout failed.";
       setLogoutError(msg);
     }
   };
@@ -200,14 +200,14 @@ export default function AdminPublicationsPage() {
       <header className="space-y-2">
         <p className="text-sm uppercase tracking-widest text-gray-500">Admin</p>
         <h1 className="text-3xl font-semibold">Add Publication</h1>
-        <p className="text-gray-600">Comma로 구분된 저자 목록을 입력하고 필요한 필드를 채운 뒤 저장하세요.</p>
+        <p className="text-gray-600">Comma-separated authors; fill required fields.</p>
         <div className="flex items-center gap-3">
           <button
             type="button"
             onClick={handleLogout}
             className="text-sm text-indigo-600 hover:underline"
           >
-            Logout
+            Reload
           </button>
           {logoutError && <span className="text-xs text-red-600">{logoutError}</span>}
         </div>
@@ -358,4 +358,3 @@ export default function AdminPublicationsPage() {
     </section>
   );
 }
-
