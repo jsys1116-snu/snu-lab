@@ -6,26 +6,13 @@ const PROTECTED_PREFIXES = [ADMIN_BASE, "/api/admin"];
 const LOGIN_PATH = `${ADMIN_BASE}/login`;
 const AUTH_API_PREFIX = "/api/admin/auth";
 
-const generateNonce = () => {
-  const array = new Uint8Array(16);
-  // Use Web Crypto (Edge runtime compatible)
-  globalThis.crypto.getRandomValues(array);
-  return Array.from(array, (b) => b.toString(16).padStart(2, "0")).join("");
-};
-
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // Generate nonce for CSP
-  const nonce = generateNonce();
-  const requestHeaders = new Headers(req.headers);
-  requestHeaders.set("x-nonce", nonce);
-
-  // Build CSP with nonce
   const csp = [
     "default-src 'self'",
-    `script-src 'self' 'nonce-${nonce}'`,
-    `style-src 'self' 'nonce-${nonce}'`,
+    "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+    "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:",
     "font-src 'self' data:",
     "frame-ancestors 'self'",
@@ -33,13 +20,7 @@ export function middleware(req: NextRequest) {
     "base-uri 'self'"
   ].join("; ");
 
-  // Base response with headers set
-  const response = NextResponse.next({
-    request: {
-      headers: requestHeaders
-    }
-  });
-
+  const response = NextResponse.next();
   response.headers.set("Content-Security-Policy", csp);
   response.headers.set("X-Frame-Options", "SAMEORIGIN");
   response.headers.set("X-Content-Type-Options", "nosniff");
