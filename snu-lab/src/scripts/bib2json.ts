@@ -59,7 +59,7 @@ async function main() {
   const entries = bibtexParse.toJSON(raw) as RawBibEntry[];
   const normalized = entries.map(normalizeBibEntry);
 
-  await fs.writeFile(outputPath, JSON.stringify(normalized, null, 2));
+  await fs.writeFile(outputPath, JSON.stringify({ publications: normalized }, null, 2));
   console.log(`Wrote ${normalized.length} publications to ${outputPath}`);
 }
 

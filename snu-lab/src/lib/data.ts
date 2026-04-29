@@ -3,9 +3,8 @@ import fs from 'fs/promises';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import type { NewsMeta, NewsPost, PeopleData, PublicationList, ResearchProject } from './types';
+import type { NewsMeta, NewsPost, PeopleData, PublicationList, PublicationStore, ResearchProject } from './types';
 import { normalizeBibEntry, type RawBibEntry } from './publications';
-import { supabase } from './supabaseClient';
 
 const rootPath = process.cwd();
 const dataPath = path.join(rootPath, 'src', 'data');
@@ -33,20 +32,24 @@ async function loadBibtex(): Promise<PublicationList> {
   return entries.map(normalizeBibEntry);
 }
 
+async function loadPublicationStore(): Promise<PublicationStore> {
+  const raw = await readJsonFile<PublicationStore | PublicationList>('publications.json');
+
+  if (Array.isArray(raw)) {
+    return { publications: raw };
+  }
+
+  return {
+    publications: Array.isArray(raw.publications) ? raw.publications : []
+  };
+}
+
 export async function getPublications(): Promise<PublicationList> {
   try {
-    const { data, error } = await supabase
-      .from('publications')
-      .select('*')
-      .order('id', { ascending: false });
-
-    if (error) {
-      throw error;
-    }
-
-    return (data ?? []) as PublicationList;
+    const store = await loadPublicationStore();
+    return store.publications;
   } catch {
-    // Fallback to local BibTeX parsing if Supabase is unreachable
+    // Fallback to BibTeX parsing if the local JSON store is unavailable
     return loadBibtex();
   }
 }

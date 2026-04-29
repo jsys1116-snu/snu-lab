@@ -39,7 +39,7 @@ export interface ResearchProject {
 }
 
 export interface PublicationRecord {
-  id: string;
+  id: string | number;
   title: string;
   authors: string[];
   venue: string;
@@ -49,9 +49,16 @@ export interface PublicationRecord {
   link?: string;
   summary?: string;
   citation?: string;
+  volume?: string | number | null;
+  issue?: string | number | null;
+  pages?: string | null;
 }
 
 export type PublicationList = PublicationRecord[];
+
+export interface PublicationStore {
+  publications: PublicationList;
+}
 
 export interface NewsMeta {
   slug: string;
