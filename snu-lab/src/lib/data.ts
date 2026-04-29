@@ -5,6 +5,7 @@ import { remark } from 'remark';
 import html from 'remark-html';
 import type { NewsMeta, NewsPost, PeopleData, PublicationList, PublicationStore, ResearchProject } from './types';
 import { normalizeBibEntry, type RawBibEntry } from './publications';
+import { supabase } from './supabaseClient';
 
 const rootPath = process.cwd();
 const dataPath = path.join(rootPath, 'src', 'data');
@@ -46,11 +47,24 @@ async function loadPublicationStore(): Promise<PublicationStore> {
 
 export async function getPublications(): Promise<PublicationList> {
   try {
-    const store = await loadPublicationStore();
-    return store.publications;
+    const { data, error } = await supabase
+      .from('publications')
+      .select('*')
+      .order('id', { ascending: false });
+
+    if (error) {
+      throw error;
+    }
+
+    return (data ?? []) as PublicationList;
   } catch {
-    // Fallback to BibTeX parsing if the local JSON store is unavailable
-    return loadBibtex();
+    try {
+      const store = await loadPublicationStore();
+      return store.publications;
+    } catch {
+      // Final fallback if both Supabase and JSON are unavailable
+      return loadBibtex();
+    }
   }
 }
 
