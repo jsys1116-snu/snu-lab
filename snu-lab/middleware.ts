@@ -1,11 +1,6 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const ADMIN_BASE = "/admin";
-const PROTECTED_PREFIXES = [ADMIN_BASE, "/api/admin"];
-const LOGIN_PATH = `${ADMIN_BASE}/login`;
-const AUTH_API_PREFIX = "/api/admin/auth";
-
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
@@ -28,31 +23,19 @@ export function middleware(req: NextRequest) {
   response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   response.headers.set("Permissions-Policy", "camera=(), microphone=(), geolocation=()");
 
-  // Auth guard for admin paths
-  const isProtected = PROTECTED_PREFIXES.some((p) => pathname.startsWith(p));
-  const isLogin = pathname === LOGIN_PATH;
-  const isAuthApi = pathname.startsWith(AUTH_API_PREFIX);
+  const isRetiredAdminPath =
+    pathname === "/admin" ||
+    pathname.startsWith("/admin/") ||
+    pathname === "/api/admin" ||
+    pathname.startsWith("/api/admin/") ||
+    pathname === "/studio-7f29" ||
+    pathname.startsWith("/studio-7f29/");
 
-  if (!isProtected || isLogin || isAuthApi) {
-    return response;
+  if (isRetiredAdminPath) {
+    response.headers.set("X-Robots-Tag", "noindex, nofollow, noarchive");
+    return new NextResponse("Not Found", { status: 404, headers: response.headers });
   }
-
-  const expected = (process.env.ADMIN_TOKEN ?? "").trim();
-  const token = (req.cookies.get("admin_token")?.value ?? "").trim();
-  const isApi = pathname.startsWith("/api/");
-
-  if (expected && token === expected) {
-    return response;
-  }
-
-  if (isApi) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401, headers: response.headers });
-  }
-
-  const loginUrl = req.nextUrl.clone();
-  loginUrl.pathname = LOGIN_PATH;
-  loginUrl.searchParams.set("redirect", pathname);
-  return NextResponse.redirect(loginUrl, { headers: response.headers });
+  return response;
 }
 
 export const config = {
