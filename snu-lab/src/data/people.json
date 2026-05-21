@@ -37,20 +37,7 @@
       ]
     }
   ],
-  "postdocs": [
-    {
-      "name": "Tae-Yun Lee (이태윤)",
-      "title": "Postdoctoral Researcher",
-      "email": "aaaaa [at] snu [dot] ac [dot] kr",
-      "note": ""
-    },
-    {
-      "name": "Myeongeun Kim (김명은)",
-      "title": "Postdoctoral Researcher",
-      "email": "jungdab1879 [at] snu [dot] ac [dot] kr",
-      "note": ""
-    }
-  ],
+  "postdocs": [],
   "phd": [
     {
       "name": "Hansol Lee (이한솔)",
@@ -71,13 +58,6 @@
       "title": "Ph.D. Researcher",
       "program": "Ph.D. course",
       "email": "paulcin [at] snu [dot] ac [dot] kr",
-      "note": ""
-    },
-    {
-      "name": "Heesoo Jin (진희수)",
-      "title": "Ph.D. Researcher",
-      "program": "Ph.D. course",
-      "email": "rapaeljin [at] snu [dot] ac [dot] kr",
       "note": ""
     },
     {
@@ -102,13 +82,13 @@
       "name": "김명은",
       "title": "Alumni",
       "degree": "Ph.D.",
-      "note": "2025.2 졸업 · 서울대 물리천문학부 포닥"
+      "note": "2025.2 졸업 · 삼성디스플레이"
     },
     {
       "name": "이태윤",
       "title": "Alumni",
       "degree": "Ph.D.",
-      "note": "2023.2 졸업 · 서울대 물리천문학부 포닥"
+      "note": "2023.2 졸업 · 군산대 전자공학과 교수"
     },
     {
       "name": "강민수",
